@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.2.0</title>
-      <pubDate>Mon, 19 Oct 2026 03:33:34 +0000</pubDate>
-      <sparkle:version>0.2.0</sparkle:version>
-      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <title>REF 0.3.0</title>
+      <pubDate>Mon, 19 Oct 2026 14:26:16 +0000</pubDate>
+      <sparkle:version>0.3.0</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Reference sets: drop several songs on Reference to compare your mix with their average. The charts shade the range the songs span, and you can save a set to use again.</li><li>Updates no longer pop up over your DAW. An Update button shows at the top of the REF window instead.</li><li>With Install updates automatically on, Restart to Update installs a downloaded update straight away.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.2.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="cA8PpMEdobprsCefKm7pIT9MsWGIVFjr2ecPj7ZlA/w8u5WpsFHPtVqVpQTyIqHZRNaFSnv2ljL/BJcp2y6gAQ==" length="2098647"/>
+      <description><![CDATA[<ul><li>Both songs' waveforms under the files, coloured by frequency (lows red, mids green, highs blue), with a red mark wherever a true peak goes over 0 dB.</li><li>Listen A/B: click a waveform to play from there, then flip between the reference and your mix (R / M, Space plays), level-matched so the louder one doesn't win.</li><li>A cooler look: Steel by default, plus Midnight, Carbon and the old amber Warehouse, dark or light, with texture and waveform colour choices (Settings › Look).</li><li>True peak is judged against your reference: going over 0 dB like the reference does is a note, not a problem. Settings › True peak brings back the −1 dBTP rule.</li><li>From REF Send: with the REF Send plug-in last on your master bus, every pass you play is measured when you stop. No bouncing.</li><li>Compare a part of a song (a looped chorus, say) with the matching part of the reference, or drag to pick the part.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.3.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="V9Zot3+mcbukQ+X2S0JDDFcpllEtJQBabMCu3PwaCzCz5gF685/pwixvXc9kiIqZhV4SIU8Uhvo+9c0aJh04CQ==" length="2366729"/>
     </item>
   </channel>
 </rss>
