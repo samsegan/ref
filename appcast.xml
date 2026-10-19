@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.1.0</title>
-      <pubDate>Mon, 19 Oct 2026 02:40:53 +0000</pubDate>
-      <sparkle:version>0.1.0</sparkle:version>
-      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <title>REF 0.2.0</title>
+      <pubDate>Mon, 19 Oct 2026 03:33:34 +0000</pubDate>
+      <sparkle:version>0.2.0</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>First release. Drop in a song you want to sound like and a bounce of your mix: REF measures loudness (LUFS, loudness range), true peak, dynamics, tonal balance and stereo width, and tells you in plain English what to change.</li><li>Suggested EQ moves for the master bus, a match score per area, and charts of where the two differ, across the song and over time.</li><li>Bounce over the same file and REF measures it again by itself, showing what you fixed.</li><li>Works on your mix alone too: streaming loudness, true peak, clipping and phase checks.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.1.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="QkwaCUle74KAr/jcjZKcfwSXIU+6/TAsiyinxtQWvXL1jkqlMaEwvcV1BQk1J1i1Us623cddv+b2OYpR8S6aCg==" length="1916224"/>
+      <description><![CDATA[<ul><li>Reference sets: drop several songs on Reference to compare your mix with their average. The charts shade the range the songs span, and you can save a set to use again.</li><li>Updates no longer pop up over your DAW. An Update button shows at the top of the REF window instead.</li><li>With Install updates automatically on, Restart to Update installs a downloaded update straight away.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.2.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="cA8PpMEdobprsCefKm7pIT9MsWGIVFjr2ecPj7ZlA/w8u5WpsFHPtVqVpQTyIqHZRNaFSnv2ljL/BJcp2y6gAQ==" length="2098647"/>
     </item>
   </channel>
 </rss>
