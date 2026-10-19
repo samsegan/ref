@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.4.0</title>
-      <pubDate>Mon, 19 Oct 2026 19:22:34 +0000</pubDate>
-      <sparkle:version>0.4.0</sparkle:version>
-      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <title>REF 0.4.1</title>
+      <pubDate>Mon, 19 Oct 2026 21:25:48 +0000</pubDate>
+      <sparkle:version>0.4.1</sparkle:version>
+      <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Live meters while a song plays, under the waveforms: loudness (momentary, short-term, integrated, range), peak and RMS with true peak and overs, loudness history, spectrum with the reference's tone curve behind it, scope, and stereo (goniometer, correlation, balance, width per band). The other song's values show as marks in its colour, so flipping A/B is informative.</li><li>Fold the meters to one line of numbers, or give them their own window for a second screen (⇧⌘M). Reset (⌥⌘R) starts integrated loudness, range and maximums again. Options in Settings › Meters.</li><li>Playing is lighter on your Mac: with the meters folded, REF now uses less than 0.3.0 did with no meters at all.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.4.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="+uwp4YZKR/HeKv9zAUeAHkzLOnoBYSuTZfLhtteX+1HRiAB9RyzlHyRJWeWi8y9HDg58W3Ws0YZijZhU5wMNCw==" length="2656622"/>
+      <description><![CDATA[<ul><li>Fixes updating: the 0.4.0 download was damaged, so updates stopped with "An error occurred while extracting the archive". 0.4.1 is 0.4.0 plus the fixes below.</li><li>The Settings window fits on your screen: it opens smaller, each tab scrolls, and you can resize it.</li><li>New in 0.4.0: live meters while a song plays, under the waveforms: loudness (momentary, short-term, integrated, range), peak and RMS with true peak and overs, loudness history, spectrum with the reference's tone curve behind it, scope, and stereo (goniometer, correlation, balance, width per band). The other song's values show as marks in its colour, so flipping A/B is informative.</li><li>Fold the meters to one line of numbers, or give them their own window for a second screen (⇧⌘M). Reset (⌥⌘R) starts integrated loudness, range and maximums again. Options in Settings › Meters.</li><li>Playing is lighter on your Mac: with the meters folded, REF uses less than 0.3.0 did with no meters at all.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.4.1/REF.dmg" type="application/octet-stream" sparkle:edSignature="DlQaRkcpq/WKMqPcqTIrY/Q1SrR1cg5eB+zxgaaSL2XsVz9ho6QhCjLGwqtClRBv7mRVr+2tj3wqo81ua7sFBg==" length="2627509"/>
     </item>
   </channel>
 </rss>
