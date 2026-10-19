@@ -5,14 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>REF for Mac</title>
   <meta name="description" content="Reference and refine. REF measures your mix against a reference song and tells you, in plain English, what to change.">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23171817'/%3E%3Cg fill='none' stroke-width='3.2' stroke-linecap='round'%3E%3Cpath d='M3.9 24.1C6.5 20.4 9 17.6 11.6 17.7S21 21.6 28.1 21.6' stroke='%23efa942'/%3E%3Cpath d='M3.9 13.2C6.5 11.2 9.5 9.8 12.4 11.6S21 20.2 28.1 21.6' stroke='%23e9e7d4'/%3E%3C/g%3E%3C/svg%3E">
+  <meta name="theme-color" content="#12151b">
+  <meta property="og:title" content="REF for Mac">
+  <meta property="og:description" content="Reference and refine. REF measures your mix against a reference song and tells you, in plain English, what to change.">
+  <meta property="og:image" content="https://samsegan.github.io/ref/icon.png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
   <style>
-    /* The Warehouse skin, as in the app (and Combiner's page). */
+    /* The Steel skin, as in the app (Theme.swift, dark): blue-grey gunmetal,
+       a steel-blue highlight, gritty plates, DIN Condensed labels. */
     :root {
-      --bg: #171817; --plate-top: #31332c; --plate-bottom: #1b1d19; --field: #0a0d0b;
-      --text: #e9e7d4; --text2: #c0c1ad; --muted: #999e88; --hairline: #3d4038;
-      --accent: #efa942; --accent-top: #f9be62; --accent-bottom: #ce8426; --on-accent: #19150c;
-      --bevel-light: rgba(129, 133, 113, 0.55); --bevel-dark: #050706;
+      --bg: #12151b; --plate-top: #2f3238; --plate-bottom: #191c22; --field: #070a10;
+      --text: #e4e5e8; --text2: #b8babe; --muted: #8e9095; --hairline: #373a40;
+      --accent: #70a6dc; --accent-top: #8ac0f6; --accent-bottom: #4a80b6; --on-accent: #090c12;
+      --reference: #c6c8cc; --good: #80c692;
+      --control-top: #474a50; --control-bottom: #1b1e24;
+      --bevel-light: rgba(121, 124, 130, 0.55); --bevel-dark: #01040a;
+      --grit: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.07 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
       --label: "DIN Condensed", "DIN Alternate", "Bahnschrift SemiCondensed", "Arial Narrow", "Roboto Condensed", sans-serif;
       --body: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
       --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
@@ -20,31 +29,39 @@
     }
     * { box-sizing: border-box; }
     html, body { margin: 0; }
-    body { background: var(--bg); color: var(--text); font: 16px/1.5 var(--body); -webkit-font-smoothing: antialiased; }
-    main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
-    h1, h2, .btn, .tagline { font-family: var(--label); font-weight: 700; letter-spacing: 0.035em; text-transform: uppercase; }
-    h1 { font-size: 48px; line-height: 1; margin: 0; display: flex; align-items: center; gap: 14px; }
-    h1 svg { width: 44px; height: 44px; flex: none; }
+    body {
+      background: radial-gradient(1200px 600px at 50% -200px, #1d2430, transparent), var(--bg);
+      color: var(--text); font: 16px/1.5 var(--body); -webkit-font-smoothing: antialiased;
+    }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+    h1, h2, h3, .btn, .tagline { font-family: var(--label); font-weight: 700; letter-spacing: 0.035em; text-transform: uppercase; }
+    header { display: flex; align-items: center; gap: 20px; }
+    header img { width: 96px; height: 96px; flex: none; margin: -8px; }
+    h1 { font-size: 56px; line-height: 1; margin: 0; }
     h2 { font-size: 20px; margin: 0 0 12px; color: var(--text); }
-    .tagline { font-size: 20px; color: var(--accent); margin: 14px 0 0; }
+    h3 { font-size: 17px; margin: 0 0 6px; color: var(--text); display: flex; align-items: center; gap: 8px; }
+    h3::before { content: ""; width: 12px; height: 3px; background: var(--accent); flex: none; }
+    .tagline { font-size: 20px; color: var(--accent); margin: 6px 0 0; }
     p { margin: 0 0 12px; color: var(--text2); }
-    .lede { font-size: 19px; color: var(--text); margin: 14px 0 28px; }
+    .lede { font-size: 19px; color: var(--text); margin: 24px 0 28px; }
     .plate {
-      background: linear-gradient(var(--plate-top), var(--plate-bottom));
+      background: var(--grit), linear-gradient(var(--plate-top), var(--plate-bottom));
       border: 1px solid var(--bevel-dark);
-      box-shadow: inset 1px 1px 0 var(--bevel-light), inset -1px -1px 0 rgba(5, 7, 6, 0.6);
+      box-shadow: inset 1px 1px 0 var(--bevel-light), inset -1px -1px 0 rgba(1, 4, 10, 0.6);
       padding: 20px; margin: 0 0 16px;
     }
+    .download { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
     .btn {
       display: inline-block; font-size: 22px; padding: 14px 28px 12px; text-decoration: none;
       color: var(--on-accent); background: linear-gradient(var(--accent-top), var(--accent-bottom));
-      border: 1px solid var(--bevel-dark); box-shadow: inset 1px 1px 0 rgba(255, 236, 200, 0.6);
+      border: 1px solid var(--bevel-dark); box-shadow: inset 1px 1px 0 rgba(214, 234, 255, 0.6);
     }
-    .btn:hover { filter: brightness(1.06); }
-    .meta { font: 13px/1.4 var(--mono); color: var(--muted); margin-top: 12px; letter-spacing: 0.02em; }
+    .btn:hover { filter: brightness(1.07); }
+    .meta { font: 13px/1.4 var(--mono); color: var(--muted); letter-spacing: 0.02em; }
     ol, ul { margin: 0 0 12px; padding-left: 22px; color: var(--text2); }
     li { margin: 0 0 8px; }
     b { color: var(--text); font-weight: 600; }
+    kbd { font: 12px/1 var(--mono); color: var(--text); background: var(--field); border: 1px solid var(--hairline); padding: 2px 5px; }
     .cmd { display: flex; gap: 8px; align-items: stretch; margin: 4px 0 8px; }
     .cmd code {
       flex: 1; min-width: 0; overflow-x: auto; white-space: nowrap; padding: 10px 12px;
@@ -52,29 +69,84 @@
     }
     .cmd button {
       font: 700 15px/1 var(--label); letter-spacing: 0.035em; text-transform: uppercase; color: var(--text);
-      background: linear-gradient(#4d5047, #1f221e); border: 1px solid var(--bevel-dark); padding: 0 14px; cursor: pointer;
+      background: linear-gradient(var(--control-top), var(--control-bottom)); border: 1px solid var(--bevel-dark);
+      box-shadow: inset 1px 1px 0 var(--bevel-light); padding: 0 14px; cursor: pointer;
     }
     a { color: var(--accent); }
     .small { font-size: 14px; color: var(--muted); }
     footer { margin-top: 32px; font-size: 14px; color: var(--muted); }
-    .shot { display: block; width: 100%; height: auto; margin: 0 0 16px; border: 1px solid var(--bevel-dark); }
+    figure { margin: 0 0 16px; }
+    .shot { display: block; width: 100%; height: auto; border: 1px solid var(--bevel-dark); box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45); }
+    figcaption { font: 13px/1.4 var(--mono); color: var(--muted); margin-top: 8px; }
+    .features { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 0 0 16px; }
+    .features .plate { margin: 0; }
+    .features p { margin: 0; font-size: 15px; }
+    .swatches { display: flex; gap: 6px; margin-top: 10px; }
+    .swatches span { width: 22px; height: 22px; border: 1px solid var(--bevel-dark); box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.18); }
+    @media (max-width: 600px) {
+      .features { grid-template-columns: 1fr; }
+      header img { width: 72px; height: 72px; margin: -6px; }
+      h1 { font-size: 44px; }
+    }
   </style>
 </head>
 <body>
 <main>
-  <h1>
-    <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#2d2f2b"/><g fill="none" stroke-width="3.2" stroke-linecap="round"><path d="M3.9 24.1C6.5 20.4 9 17.6 11.6 17.7S21 21.6 28.1 21.6" stroke="#efa942"/><path d="M3.9 13.2C6.5 11.2 9.5 9.8 12.4 11.6S21 20.2 28.1 21.6" stroke="#e9e7d4"/></g></svg>
-    REF
-  </h1>
-  <p class="tagline">Reference and refine.</p>
+  <header>
+    <img src="icon.svg" width="96" height="96" alt="">
+    <div>
+      <h1>REF</h1>
+      <p class="tagline">Reference and refine.</p>
+    </div>
+  </header>
   <p class="lede">Drop in a reference song and a bounce of your mix. REF measures both the way mastering tools do, then tells you in plain English what to change so your track sounds like the reference: EQ moves, loudness, dynamics and stereo. Bounce again and it checks the new mix by itself.</p>
 
-  <img class="shot" src="window.jpg" width="1600" height="1040" alt="REF comparing a mix with a reference: the match score, the biggest differences and both tonal balance curves.">
+  <figure>
+    <img class="shot" src="window.jpg" width="1600" height="1284" alt="REF in its Steel look comparing a mix with a reference: the match score, the biggest differences, both waveforms and the tonal balance curves.">
+  </figure>
 
-  <section class="plate">
+  <section class="plate download">
     <a class="btn" href="https://github.com/samsegan/ref/releases/latest/download/REF.dmg">Download for Mac</a>
     <div class="meta" id="version">macOS 14 or later · Apple silicon (M1 or newer)</div>
   </section>
+
+  <div class="features">
+    <section class="plate">
+      <h3>Plain-English advice</h3>
+      <p>The biggest differences first, with up to five EQ moves to close them and a 0–100 match score. Straight from the measurements, so the same two files always get the same advice. No AI.</p>
+    </section>
+    <section class="plate">
+      <h3>Watches your bounces</h3>
+      <p>Bounce over the same file and REF measures it again by itself, then shows what moved: the score before and after, and what you fixed since last time.</p>
+    </section>
+    <section class="plate">
+      <h3>Reference sets</h3>
+      <p>Drop several songs on Reference to aim for their average instead of one song's quirks. The range they span is shaded on the charts, and anything inside it counts as a match. Save sets to use again.</p>
+    </section>
+    <section class="plate">
+      <h3>Waveforms and A/B</h3>
+      <p>Both songs' waveforms on one clock, coloured by frequency (lows red, mids green, highs blue). Click to play, then flip between them with <kbd>R</kbd> and <kbd>M</kbd>, level-matched so louder never sounds better.</p>
+    </section>
+    <section class="plate">
+      <h3>Live meters</h3>
+      <p>Loudness, true peak, PSR, a scope, a goniometer, width per band and a spectrum with the reference's curve over it, for whichever song you hear. Fold them away or give them their own window.</p>
+    </section>
+    <section class="plate">
+      <h3>Your look</h3>
+      <p>Steel by default, or Midnight, Carbon or Warehouse amber. Dark, light or match the Mac, with gritty, brushed or clean steel.</p>
+      <div class="swatches" aria-label="Steel, Midnight, Carbon and Warehouse">
+        <span style="background: linear-gradient(135deg, #2b2e34 50%, #70a6dc 50%)"></span>
+        <span style="background: linear-gradient(135deg, #282d3b 50%, #60c6e8 50%)"></span>
+        <span style="background: linear-gradient(135deg, #2e2e2e 50%, #d6dee6 50%)"></span>
+        <span style="background: linear-gradient(135deg, #31332c 50%, #efa942 50%)"></span>
+      </div>
+    </section>
+  </div>
+
+  <figure>
+    <img class="shot" src="meters.jpg" width="1600" height="867" alt="REF's live meters in their own window: loudness bars and history, peak and RMS, scope, goniometer, width per band and the spectrum.">
+    <figcaption>The meters in their own window, for a second screen.</figcaption>
+  </figure>
 
   <section class="plate">
     <h2>The first time you open it</h2>
@@ -100,11 +172,11 @@
     <h2>What it measures</h2>
     <ul>
       <li><b>Loudness</b>: integrated, short-term and momentary LUFS, and loudness range.</li>
-      <li><b>Peaks and dynamics</b>: true peak, PLR, PSR and crest factor.</li>
-      <li><b>Tonal balance</b>, band by band.</li>
+      <li><b>Peaks and dynamics</b>: true peak, PLR, PSR and crest factor. True peak is judged against the reference, so a clipped master isn't flagged when your reference is just as hot.</li>
+      <li><b>Tonal balance</b>, band by band, at the same loudness.</li>
       <li><b>Stereo</b>: width and correlation in each band, and how the mix holds up in mono.</li>
     </ul>
-    <p>All of it across the whole song and over time, with charts of where the two differ. The advice comes straight from those numbers, so the same two files always get the same advice. No AI.</p>
+    <p>All of it across the whole song and over time, with charts of where the two differ. A looped chorus or a section you bounced is compared with the reference's loudest stretch of the same length.</p>
     <p>No reference to hand? Drop in your mix on its own and REF checks it against the streaming services' targets.</p>
   </section>
 
