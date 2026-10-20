@@ -3,12 +3,12 @@
   <channel>
     <title>REF for Windows</title>
     <item>
-      <title>REF 0.2.0</title>
-      <pubDate>Tue, 20 Oct 2026 14:22:30 +0000</pubDate>
-      <sparkle:version>0.2.0</sparkle:version>
-      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
-      <description><![CDATA[<ul><li>Saved reference sets: name a set and it opens again next time, even when its songs' files have moved.</li><li>The Tracks tab: drop a folder of your song's tracks and REF names the pairs that cancel each other (a kick and a bass, two snare mics, a bus running late), with the fix, and plays each pair as it is and fixed.</li><li>The zoomed waveform: both songs zoomed in on where they are, with the beat grid and bar numbers. Left and Right jump by bars, + and - zoom.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-win-v0.2.0/REF-0.2.0-Windows-Setup.exe" sparkle:version="0.2.0" sparkle:os="windows" sparkle:installerArguments="/SILENT /SP- /NOICONS /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="F5edbyy8fKzW90EaG1J2FGAjdK9y7lHn9ONvHbnu29GleVKOI0GmWLwvMEFh4Js4xkZQmQAArLN6KU1zabmhDQ==" length="8596594"/>
+      <title>REF 0.3.0</title>
+      <pubDate>Tue, 20 Oct 2026 22:52:06 +0000</pubDate>
+      <sparkle:version>0.3.0</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <description><![CDATA[<ul><li>Sync in the zoomed waveform: switching between the reference and your mix (R, M) lands the song you switch to on the same beat in the bar as the one you heard, in step while both play. Line up (L) puts the other song at the same bar and beat.</li><li>Sones: the LUFS button beside Fix level-matches the A/B by how loud the songs sound (ISO 532-1), not only by their LUFS.</li><li>Genre-sized reference sets: drop 20 to 200 songs on Reference. Summary shows where your mix sits among them and its closest songs, each one click from the A/B; Over time draws the set as a band.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-win-v0.3.0/REF-0.3.0-Windows-Setup.exe" sparkle:version="0.3.0" sparkle:os="windows" sparkle:installerArguments="/SILENT /SP- /NOICONS /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="7j4/xVRkz+eEdh8Zjai6Xm/qhv+zggacmZxfeN4e+MnPOZaY55DlMBGEj3gQ85Sfyoc1REP7CPvAi04pgYryBQ==" length="8770382"/>
     </item>
   </channel>
 </rss>
