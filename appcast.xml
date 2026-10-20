@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.7.0</title>
-      <pubDate>Tue, 20 Oct 2026 22:01:10 +0000</pubDate>
-      <sparkle:version>0.7.0</sparkle:version>
-      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+      <title>REF 0.7.2</title>
+      <pubDate>Tue, 20 Oct 2026 23:03:55 +0000</pubDate>
+      <sparkle:version>0.7.2</sparkle:version>
+      <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Clipping is now a note, not something to fix: loud masters clip, often on purpose. To have it flagged again: Settings › Comparing › Clipped samples.</li><li>The zoomed waveform is bigger and plainer, like DJ software: taller lanes, no red or white marks and no dB lines over it, and the lane's top and bottom edges are 0 dB. Any of them can come back in Settings › Meters › Zoomed waveform.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.7.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="xH6fdSWHPP59yQDg9TwfhLXRWpoPlJexP9Uu+PmyoMryc8NG5vAyhR3XN0z7PShUEVlnGiyZMYY7I62trZ10AA==" length="3958839"/>
+      <description><![CDATA[<ul><li>REF now compares your drops with the reference's. It finds each song's drops (or choruses), where it's as loud as it gets with its kick and sub in, so an intro, a build or a breakdown no longer makes your mix read "muddy" or "quieter". "Heaviest at" names places inside your drops. The drops are lit on both waveforms, and a "Comparing the drops" note gives their times. To compare whole songs as before, choose Settings › Compare over › Whole song.</li><li>"Quieter than the reference" now always shows under Start here, however small, and leads the summary line. In EDM it's the first thing you hear next to a reference. Louder still waits its turn.</li><li>The loudness note compares drop with drop, and it now says how loud your mix sounds as well as its LUFS, for example "By ear it sounds 2.3 dB quieter". It uses perceived loudness (ISO 532-1 sones), the same measure as the Sones button in the A/B, and says why when the two measures disagree.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.7.2/REF.dmg" type="application/octet-stream" sparkle:edSignature="oOU4kzPPmVe6C7Xu75l8Q5WJY36J2GeBUH+C9FzLSdfitUZ6n+UdJ+UUdzg9vpcdS0TdCz/uYOMTr1trJ7AqAg==" length="3996100"/>
     </item>
   </channel>
 </rss>
