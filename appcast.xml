@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.6.0</title>
-      <pubDate>Tue, 20 Oct 2026 20:04:30 +0000</pubDate>
-      <sparkle:version>0.6.0</sparkle:version>
-      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <title>REF 0.7.0</title>
+      <pubDate>Tue, 20 Oct 2026 22:01:10 +0000</pubDate>
+      <sparkle:version>0.7.0</sparkle:version>
+      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Sync: when you flip between the reference and your mix (R and M), the song you switch to lands on the same beat in the bar, in time, so drop compares with drop. It's on by default; switch it off in the zoom strip or in Settings. Line up (L) puts the other song on the same bar and beat without switching.</li><li>Big reference sets: drop a few hundred songs on Reference, say the top 200 in your genre. They're measured a few at a time and saved in the background, and a big set takes about a fifth of the memory and disk it used to.</li><li>Where you sit: with 5 or more songs in a set, Summary shows where your mix falls among them for loudness, dynamics, peaks, width and each band ("louder than 82% of the set").</li><li>Closest songs: REF names the 3 songs in your set that are nearest to your mix. Press A/B with it to compare with a real song instead of the set's average.</li><li>Sones: a new button beside Fix matches the A/B by how loud the songs sound (ISO 532-1 perceived loudness) instead of by LUFS. It's an experiment, so tell us which match sounds more even.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.6.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="xzzTMvpfG1N499REEYNTk4xf7HvjhfDOIR/w3sIF5nIyWItmNSYdHObOrGXOnxKJHiYZ0sxO8B7/CCfDIQx5AA==" length="5012326"/>
+      <description><![CDATA[<ul><li>Clipping is now a note, not something to fix: loud masters clip, often on purpose. To have it flagged again: Settings › Comparing › Clipped samples.</li><li>The zoomed waveform is bigger and plainer, like DJ software: taller lanes, no red or white marks and no dB lines over it, and the lane's top and bottom edges are 0 dB. Any of them can come back in Settings › Meters › Zoomed waveform.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.7.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="xH6fdSWHPP59yQDg9TwfhLXRWpoPlJexP9Uu+PmyoMryc8NG5vAyhR3XN0z7PShUEVlnGiyZMYY7I62trZ10AA==" length="3958839"/>
     </item>
   </channel>
 </rss>
