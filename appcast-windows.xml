@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>REF for Windows</title>
+    <item>
+      <title>REF 0.1.0</title>
+      <pubDate>Tue, 20 Oct 2026 13:42:46 +0000</pubDate>
+      <sparkle:version>0.1.0</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <description><![CDATA[<ul><li>The first REF for Windows: drop in a reference and your mix and get the same numbers, match score and plain-English advice as REF on the Mac.</li><li>Play both level-matched and flip between them with R and M, with mono, side and the phase fix.</li><li>Live meters under the waveforms, or in their own window.</li><li>REF Send for your DAW (VST3), installed with REF: every pass you play lands in REF.</li><li>An early test, not signed yet: Windows asks you to approve it once.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-win-v0.1.0/REF-0.1.0-Windows-Setup.exe" sparkle:version="0.1.0" sparkle:os="windows" sparkle:installerArguments="/SILENT /SP- /NOICONS /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="8Db6ZYmqtT4t9p6w3VR4XWXbLKP8fowDjKUuU2JkcUutyvS13udbvOYvQfk/WIx6SX9RRDqJWuVGbgUle++aDg==" length="8454248"/>
+    </item>
+  </channel>
+</rss>

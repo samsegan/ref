@@ -50,6 +50,7 @@
       box-shadow: inset 1px 1px 0 var(--bevel-light), inset -1px -1px 0 rgba(1, 4, 10, 0.6);
       padding: 20px; margin: 0 0 16px;
     }
+    [hidden] { display: none !important; }
     .download { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
     .btn {
       display: inline-block; font-size: 22px; padding: 14px 28px 12px; text-decoration: none;
@@ -110,6 +111,12 @@
     <div class="meta" id="version">macOS 14 or later · Apple silicon (M1 or newer)</div>
   </section>
 
+  <!-- Shown once there's a Windows release (appcast-windows.xml, release-windows.sh). -->
+  <section class="plate download" id="windows" hidden>
+    <a class="btn" id="windows-download" href="https://github.com/samsegan/ref/releases">Download for Windows</a>
+    <div class="meta" id="windows-version">Windows 10 or 11, 64-bit · early test</div>
+  </section>
+
   <div class="features">
     <section class="plate">
       <h3>Plain-English advice</h3>
@@ -159,6 +166,17 @@
     <p class="small">On macOS 14 Sonoma you can instead right-click REF in Applications, choose Open, then Open again.</p>
   </section>
 
+  <section class="plate" id="windows-first" hidden>
+    <h2>On Windows</h2>
+    <p>REF for Windows is an early test, newer than the Mac version and not signed yet, so Windows asks you to approve it once. It comes with REF Send for your DAW.</p>
+    <ol>
+      <li>Run the <b>REF Setup</b> file you downloaded. Windows says “Windows protected your PC”: click <b>More info</b>, then <b>Run anyway</b>.</li>
+      <li>Click <b>Yes</b> to let it install. REF goes in the Start menu, and REF Send in <b>Common Files\VST3</b>, where every DAW looks for plug-ins.</li>
+      <li>Open REF from the Start menu. In your DAW, rescan VST3 plug-ins to find REF Send.</li>
+    </ol>
+    <p class="small">REF for Windows checks for a new version once a day and asks before installing it. <b>Settings › About › Check for updates</b> looks now.</p>
+  </section>
+
   <section class="plate">
     <h2>Or install from Terminal</h2>
     <p>One line that downloads REF into Applications and opens it, with no warning to approve:</p>
@@ -199,6 +217,25 @@
       const when = isNaN(date) ? "" : " · " + date.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
       document.getElementById("version").textContent =
         "Version " + version + when + " · macOS 14 or later · Apple silicon (M1 or newer)";
+    })
+    .catch(() => {});
+
+  // Windows: the button and its version from REF for Windows' own feed. Until
+  // there is one, the Windows parts stay hidden.
+  fetch("appcast-windows.xml", { cache: "no-store" })
+    .then((response) => (response.ok ? response.text() : Promise.reject()))
+    .then((text) => {
+      const xml = new DOMParser().parseFromString(text, "application/xml");
+      const version = xml.querySelector("item > title")?.textContent.replace(/^REF\s*/, "");
+      const url = xml.querySelector("item > enclosure")?.getAttribute("url");
+      const date = new Date(xml.querySelector("item > pubDate")?.textContent || "");
+      if (!version || !url) return;
+      const when = isNaN(date) ? "" : " · " + date.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+      document.getElementById("windows-download").href = url;
+      document.getElementById("windows-version").textContent =
+        "Version " + version + when + " · Windows 10 or 11, 64-bit · early test";
+      document.getElementById("windows").hidden = false;
+      document.getElementById("windows-first").hidden = false;
     })
     .catch(() => {});
 
