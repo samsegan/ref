@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.4.2</title>
-      <pubDate>Mon, 19 Oct 2026 22:49:27 +0000</pubDate>
-      <sparkle:version>0.4.2</sparkle:version>
-      <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+      <title>REF 0.5.0</title>
+      <pubDate>Tue, 20 Oct 2026 00:13:21 +0000</pubDate>
+      <sparkle:version>0.5.0</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>A new icon in REF's Steel blues and greys: the reference's tonal-balance curve draws the R, and your mix rises to meet it.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.4.2/REF.dmg" type="application/octet-stream" sparkle:edSignature="mQdBEu4IORKYDvC4hZzFj16QrPPDHhGG52thjvXYwivJyaqYKjyIioQPIl+DU+tkkHVJOsseGyA8BBiMFp0MAg==" length="3263231"/>
+      <description><![CDATA[<ul><li>A cleaner window: one row per song, with its play button, name and numbers beside its waveform. Everything under the header scrolls, and the tabs stay pinned at the top. Pick the part of the reference to compare by dragging across its waveform.</li><li>Zoom: a scrolling close-up of both songs with a beat grid. Zoom from 1 to 64 bars, jump by bars with ← and →, and see how close you sit to 0 dB: your ceiling, true-peak overs and the loudest peak on screen. Bars come from REF Send, from Logic bounces or from the audio, and you can correct them from the tempo button.</li><li>Phase: REF finds the bands that cancel in mono, says when, and names the likely cause: a flipped channel, one side late, or a delayed copy on one side. Hear it with the new Mono, Side and Fix buttons under the waveforms, also in the Playback menu.</li><li>Tracks: give REF a folder of a song's tracks (your DAW's all-tracks export or a Combiner Stems folder). It names the pairs that cancel each other, says where, and gives the polarity flip or nudge that fixes each one. You can hear each pair as it is and fixed.</li><li>Tone notes now say whether a difference runs through the whole mix or sits in a few places, and name those places (like 1:03–1:22). Play them from the note or from the new row under your mix.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.5.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="BUDELnFAZyacflmDoa2P8IzriEetc7+1MdoepByJwohrWoopOPdE51efC9d6dbhpIahZn23QSG6MtVVM+BLRAA==" length="4821299"/>
     </item>
   </channel>
 </rss>
