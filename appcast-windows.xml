@@ -3,12 +3,12 @@
   <channel>
     <title>REF for Windows</title>
     <item>
-      <title>REF 0.3.1</title>
-      <pubDate>Tue, 20 Oct 2026 23:24:56 +0000</pubDate>
-      <sparkle:version>0.3.1</sparkle:version>
-      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
-      <description><![CDATA[<ul><li>"Quieter than the reference" now always shows under Start here, however small, and leads the summary line. In EDM it's the first thing you hear next to a reference. Louder still waits its turn.</li><li>The loudness note now says how loud your mix sounds as well as its LUFS, for example "By ear it sounds 2.3 dB quieter". It uses perceived loudness (ISO 532-1 sones), the same measure as the Sones button in the A/B, and says why when the two measures disagree.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-win-v0.3.1/REF-0.3.1-Windows-Setup.exe" sparkle:version="0.3.1" sparkle:os="windows" sparkle:installerArguments="/SILENT /SP- /NOICONS /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="/6ljhEB3U4lZTpAN5cowSrmWJXHD1SSoZzaeJiBoyk7rMjHJx1p5rp6f9yJzwvOdn7Lnd9nqaDLgfT2/cN7iCw==" length="8789378"/>
+      <title>REF 0.4.1</title>
+      <pubDate>Wed, 21 Oct 2026 00:36:06 +0000</pubDate>
+      <sparkle:version>0.4.1</sparkle:version>
+      <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+      <description><![CDATA[<ul><li>REF now compares your drops with the reference's. It finds each song's drops (or choruses), where it's as loud as it gets with its kick and sub in, so an intro, a build or a breakdown no longer makes your mix read "muddy" or "quieter". "Heaviest at" names places inside your drops. The drops are lit on both waveforms, Loudness over time shades yours, and a "Comparing the drops" note gives their times. To compare whole songs as before, choose Settings › Compare over › Whole song.</li><li>The loudness note compares drop with drop: a long intro or a quiet breakdown no longer moves it.</li><li>Big reference sets (20 songs or more) now get the right perceived loudness. The "By ear it sounds … quieter" line, the sones numbers and the Sones match were off for some songs in them, by up to 14 sones (about 3 dB).</li><li>A set saved by REF for Windows 0.3 measures those songs again when it opens, while their files are still where they were.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-win-v0.4.1/REF-0.4.1-Windows-Setup.exe" sparkle:version="0.4.1" sparkle:os="windows" sparkle:installerArguments="/SILENT /SP- /NOICONS /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="J/UE4/gOYkZ64V95vxPA4oksyj0NcsmiIz/0++yhZPWnMKRECddEAjKE7LSKGIMCBvm6SUd5zmY/D3suiJuaCg==" length="9021150"/>
     </item>
   </channel>
 </rss>
