@@ -132,7 +132,7 @@
     </section>
     <section class="plate">
       <h3>Waveforms and A/B</h3>
-      <p>Both songs' waveforms on one clock, coloured by frequency (lows red, mids green, highs blue). Click to play, then flip between them with <kbd>R</kbd> and <kbd>M</kbd>, level-matched so louder never sounds better.</p>
+      <p>Both songs' waveforms on one clock, coloured by frequency (subs blue, bass magenta, mids orange, highs cyan). Click to play, then flip between them with <kbd>R</kbd> and <kbd>M</kbd>, level-matched so louder never sounds better.</p>
     </section>
     <section class="plate">
       <h3>Live meters</h3>
@@ -166,13 +166,23 @@
     <p class="small">On macOS 14 Sonoma you can instead right-click REF in Applications, choose Open, then Open again.</p>
   </section>
 
+  <section class="plate">
+    <h2>The REF plug-in on a Mac</h2>
+    <p>REF comes with a plug-in for your DAW, Audio Unit and VST3: REF's whole window on your master bus. Play your song and stop, and REF measures the pass against the reference. A/B them through your DAW, level-matched.</p>
+    <ol>
+      <li>In REF, click <b>Install the REF plug-in</b> (or open <b>Settings › Plug-in</b>). It replaces REF Send.</li>
+      <li>Restart your DAW and put <b>REF</b> last on your master bus.</li>
+    </ol>
+    <p class="small">When REF updates, it updates the plug-in too: restart your DAW to load the new version. Settings › Plug-in can turn that off.</p>
+  </section>
+
   <section class="plate" id="windows-first" hidden>
     <h2>On Windows</h2>
-    <p>REF for Windows is an early test, newer than the Mac version and not signed yet, so Windows asks you to approve it once. It comes with REF Send for your DAW.</p>
+    <p>REF for Windows is an early test, newer than the Mac version and not signed yet, so Windows asks you to approve it once. It comes with the REF plug-in for your DAW: REF on your master bus, measuring each pass you play.</p>
     <ol>
       <li>Run the <b>REF Setup</b> file you downloaded. Windows says “Windows protected your PC”: click <b>More info</b>, then <b>Run anyway</b>.</li>
-      <li>Click <b>Yes</b> to let it install. REF goes in the Start menu, and REF Send in <b>Common Files\VST3</b>, where every DAW looks for plug-ins.</li>
-      <li>Open REF from the Start menu. In your DAW, rescan VST3 plug-ins to find REF Send.</li>
+      <li>Click <b>Yes</b> to let it install. REF goes in the Start menu, and the REF plug-in in <b>Common Files\VST3</b>, where every DAW looks for plug-ins. It replaces REF Send.</li>
+      <li>Open REF from the Start menu. In your DAW, rescan VST3 plug-ins and put <b>REF</b> last on your master bus.</li>
     </ol>
     <p class="small">REF for Windows checks for a new version once a day and asks before installing it. <b>Settings › About › Check for updates</b> looks now.</p>
   </section>

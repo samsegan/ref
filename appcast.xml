@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.7.3</title>
-      <pubDate>Tue, 20 Oct 2026 23:41:52 +0000</pubDate>
-      <sparkle:version>0.7.3</sparkle:version>
-      <sparkle:shortVersionString>0.7.3</sparkle:shortVersionString>
+      <title>REF 0.8.0</title>
+      <pubDate>Wed, 21 Oct 2026 01:31:39 +0000</pubDate>
+      <sparkle:version>0.8.0</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Big reference sets (20 songs or more) now get the right perceived loudness. The "By ear it sounds … quieter" line, the sones numbers and the Sones match were off for some songs in them, by up to 14 sones (about 3 dB).</li><li>A set saved by REF 0.6 or 0.7 measures those songs again when it opens, while their files are still where they were.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.7.3/REF.dmg" type="application/octet-stream" sparkle:edSignature="ohsnGgOsf65LQAhTwD3wvWQlD0jb2QSOsJCwAxRYN1vY54aa2J147o4v3sZ1P5q71aU+2/98sEW1/H3dsXPCBA==" length="3998954"/>
+      <description><![CDATA[<ul><li>New: REF now comes with the REF plug-in. Settings › Plug-in › Install the REF Plug-in puts it in your plug-in folders as an Audio Unit and a VST3. It replaces REF Send and removes it.</li><li>Put REF last on your master bus and drop a reference on it. Every pass you play is measured in REF's own window when you stop, and the reference stays saved with your project.</li><li>In the plug-in, A / B (or R, and M to go back) plays the reference in place of your mix through your DAW. It plays from its loudest part, turned to your mix's loudness, and your mix's level is never touched. A bounce always gets your mix.</li><li>In the plug-in, live meters show your mix's loudness, peaks, spectrum and stereo as your DAW plays it.</li><li>REF updates the plug-in when REF updates (a setting). Restart your DAW to load the new version.</li><li>The REF Send button on Your mix is now Plug-in: the app still follows each pass the plug-in prints.</li><li>Waveforms now use Traktor-style colours by default, with the sub picked out in darker colours.</li><li>Every band name now shows its range in Hz, for example "Muddy low mids (250–500 Hz)".</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.8.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="VSwpGasIr/zmLGy9xy+4l1kcSAom+vJuZUMlZKfbE6V5sUakb9LrxFAUjJUsIgcmMCKPxieFtGgZgVe1xfr4CA==" length="20041869"/>
     </item>
   </channel>
 </rss>
