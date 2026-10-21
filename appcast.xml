@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.8.0</title>
-      <pubDate>Wed, 21 Oct 2026 01:31:39 +0000</pubDate>
-      <sparkle:version>0.8.0</sparkle:version>
-      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <title>REF 0.9.0</title>
+      <pubDate>Wed, 21 Oct 2026 03:23:07 +0000</pubDate>
+      <sparkle:version>0.9.0</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>New: REF now comes with the REF plug-in. Settings › Plug-in › Install the REF Plug-in puts it in your plug-in folders as an Audio Unit and a VST3. It replaces REF Send and removes it.</li><li>Put REF last on your master bus and drop a reference on it. Every pass you play is measured in REF's own window when you stop, and the reference stays saved with your project.</li><li>In the plug-in, A / B (or R, and M to go back) plays the reference in place of your mix through your DAW. It plays from its loudest part, turned to your mix's loudness, and your mix's level is never touched. A bounce always gets your mix.</li><li>In the plug-in, live meters show your mix's loudness, peaks, spectrum and stereo as your DAW plays it.</li><li>REF updates the plug-in when REF updates (a setting). Restart your DAW to load the new version.</li><li>The REF Send button on Your mix is now Plug-in: the app still follows each pass the plug-in prints.</li><li>Waveforms now use Traktor-style colours by default, with the sub picked out in darker colours.</li><li>Every band name now shows its range in Hz, for example "Muddy low mids (250–500 Hz)".</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.8.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="VSwpGasIr/zmLGy9xy+4l1kcSAom+vJuZUMlZKfbE6V5sUakb9LrxFAUjJUsIgcmMCKPxieFtGgZgVe1xfr4CA==" length="20041869"/>
+      <description><![CDATA[<ul><li>Bands now fit EDM by default. Sub runs up to 90 Hz (the sub layer and the kick's fundamental), and Bass is 90–180 Hz on its own, so a heavy or thin kick body around 100–150 Hz shows up instead of being averaged away. The old split (sub to 60 Hz) is still in Settings.</li><li>Waveforms have a new default look, Layers, closer to Traktor's: lows pink, mids violet, highs blue, each drawn as its own see-through layer. Kicks stand out as thin pink lines, even in a loud, limited master. Spectrum, RGB blend, Three bands and One colour are still in Settings › Look.</li><li>The REF plug-in is now a meter until you drop in a reference: loudness, peaks, spectrum and stereo fill its window. Drop a song anywhere on the meters to compare, and Remove takes the reference out again. Its Your mix row is gone: it measures the master as your DAW plays.</li><li>The REF plug-in gets the new bands and waveforms too: restart your DAW after REF updates it.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.9.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="PyEIRowLg7FMUnGs1GaJuKo/l1OBG9/TyvpaG4zmi8KBtEhGlIAkTsQfzbt0eg23f+tKMCJa7kE/21NMThb4AQ==" length="20038372"/>
     </item>
   </channel>
 </rss>
