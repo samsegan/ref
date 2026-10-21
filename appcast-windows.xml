@@ -3,12 +3,12 @@
   <channel>
     <title>REF for Windows</title>
     <item>
-      <title>REF 0.5.0</title>
-      <pubDate>Wed, 21 Oct 2026 01:56:35 +0000</pubDate>
-      <sparkle:version>0.5.0</sparkle:version>
-      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
-      <description><![CDATA[<ul><li>New: the REF plug-in, which replaces REF Send. Put REF last on your master bus and drop a reference on it. Every pass you play is measured in REF's own window when you stop. The reference stays saved with your project.</li><li>In the plug-in, A / B (or R, and M to go back) plays the reference in place of your mix through your DAW. It plays from its loudest part, turned to your mix's loudness, and your mix's level is never touched. A bounce always gets your mix.</li><li>In the plug-in, live meters show your mix's loudness, peaks, spectrum and stereo as your DAW plays it.</li><li>Waveforms now use Traktor-style colours by default, with the sub picked out in darker colours.</li><li>Every band name now shows its range in Hz, for example "Muddy low mids (250–500 Hz)".</li><li>Fixed: the "Heaviest at" play buttons sat on top of a note's title until the window was resized.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-win-v0.5.0/REF-0.5.0-Windows-Setup.exe" sparkle:version="0.5.0" sparkle:os="windows" sparkle:installerArguments="/SILENT /SP- /NOICONS /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="01r2eu8aAc5SYJOhUnXjwWwN1+6hqBq3bf3wC3eCFItLxglBKoqwgHffOAPZRVlr0RU99NAdCcdwpDO8TQ4OCQ==" length="9366915"/>
+      <title>REF 0.6.0</title>
+      <pubDate>Wed, 21 Oct 2026 03:42:55 +0000</pubDate>
+      <sparkle:version>0.6.0</sparkle:version>
+      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <description><![CDATA[<ul><li>Bands now fit EDM by default. Sub runs up to 90 Hz (the sub layer and the kick's fundamental), and Bass is 90–180 Hz on its own, so a heavy or thin kick body around 100–150 Hz shows up instead of being averaged away. The old split (sub to 60 Hz) is still in Settings.</li><li>Waveforms have a new look, Layers, closer to Traktor's: lows pink, mids violet, highs blue, each drawn as its own see-through layer. Kicks stand out as thin pink lines, even in a loud, limited master.</li><li>The REF plug-in is now a meter until you drop in a reference: loudness, peaks, spectrum and stereo fill its window. Drop a song anywhere on the meters to compare, and Remove takes the reference out again. Its Your mix row is gone: it measures the master as your DAW plays.</li><li>The REF plug-in gets the new bands and waveforms too: restart your DAW after installing.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-win-v0.6.0/REF-0.6.0-Windows-Setup.exe" sparkle:version="0.6.0" sparkle:os="windows" sparkle:installerArguments="/SILENT /SP- /NOICONS /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="N4ppjmaO7KUXLj3I/rMh2bRx1VitG94YfH7fIBTPLsoex6mR6GK4fEIoVswpgVpojOrij1R7w25tR/0ea0obCg==" length="9379965"/>
     </item>
   </channel>
 </rss>
