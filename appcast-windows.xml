@@ -3,12 +3,12 @@
   <channel>
     <title>REF for Windows</title>
     <item>
-      <title>REF 0.4.1</title>
-      <pubDate>Wed, 21 Oct 2026 00:36:06 +0000</pubDate>
-      <sparkle:version>0.4.1</sparkle:version>
-      <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
-      <description><![CDATA[<ul><li>REF now compares your drops with the reference's. It finds each song's drops (or choruses), where it's as loud as it gets with its kick and sub in, so an intro, a build or a breakdown no longer makes your mix read "muddy" or "quieter". "Heaviest at" names places inside your drops. The drops are lit on both waveforms, Loudness over time shades yours, and a "Comparing the drops" note gives their times. To compare whole songs as before, choose Settings › Compare over › Whole song.</li><li>The loudness note compares drop with drop: a long intro or a quiet breakdown no longer moves it.</li><li>Big reference sets (20 songs or more) now get the right perceived loudness. The "By ear it sounds … quieter" line, the sones numbers and the Sones match were off for some songs in them, by up to 14 sones (about 3 dB).</li><li>A set saved by REF for Windows 0.3 measures those songs again when it opens, while their files are still where they were.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-win-v0.4.1/REF-0.4.1-Windows-Setup.exe" sparkle:version="0.4.1" sparkle:os="windows" sparkle:installerArguments="/SILENT /SP- /NOICONS /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="J/UE4/gOYkZ64V95vxPA4oksyj0NcsmiIz/0++yhZPWnMKRECddEAjKE7LSKGIMCBvm6SUd5zmY/D3suiJuaCg==" length="9021150"/>
+      <title>REF 0.5.0</title>
+      <pubDate>Wed, 21 Oct 2026 01:56:35 +0000</pubDate>
+      <sparkle:version>0.5.0</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+      <description><![CDATA[<ul><li>New: the REF plug-in, which replaces REF Send. Put REF last on your master bus and drop a reference on it. Every pass you play is measured in REF's own window when you stop. The reference stays saved with your project.</li><li>In the plug-in, A / B (or R, and M to go back) plays the reference in place of your mix through your DAW. It plays from its loudest part, turned to your mix's loudness, and your mix's level is never touched. A bounce always gets your mix.</li><li>In the plug-in, live meters show your mix's loudness, peaks, spectrum and stereo as your DAW plays it.</li><li>Waveforms now use Traktor-style colours by default, with the sub picked out in darker colours.</li><li>Every band name now shows its range in Hz, for example "Muddy low mids (250–500 Hz)".</li><li>Fixed: the "Heaviest at" play buttons sat on top of a note's title until the window was resized.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-win-v0.5.0/REF-0.5.0-Windows-Setup.exe" sparkle:version="0.5.0" sparkle:os="windows" sparkle:installerArguments="/SILENT /SP- /NOICONS /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="01r2eu8aAc5SYJOhUnXjwWwN1+6hqBq3bf3wC3eCFItLxglBKoqwgHffOAPZRVlr0RU99NAdCcdwpDO8TQ4OCQ==" length="9366915"/>
     </item>
   </channel>
 </rss>
