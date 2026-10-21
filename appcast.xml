@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.9.0</title>
-      <pubDate>Wed, 21 Oct 2026 03:23:07 +0000</pubDate>
-      <sparkle:version>0.9.0</sparkle:version>
-      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <title>REF 0.10.0</title>
+      <pubDate>Wed, 21 Oct 2026 21:23:20 +0000</pubDate>
+      <sparkle:version>0.10.0</sparkle:version>
+      <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Bands now fit EDM by default. Sub runs up to 90 Hz (the sub layer and the kick's fundamental), and Bass is 90–180 Hz on its own, so a heavy or thin kick body around 100–150 Hz shows up instead of being averaged away. The old split (sub to 60 Hz) is still in Settings.</li><li>Waveforms have a new default look, Layers, closer to Traktor's: lows pink, mids violet, highs blue, each drawn as its own see-through layer. Kicks stand out as thin pink lines, even in a loud, limited master. Spectrum, RGB blend, Three bands and One colour are still in Settings › Look.</li><li>The REF plug-in is now a meter until you drop in a reference: loudness, peaks, spectrum and stereo fill its window. Drop a song anywhere on the meters to compare, and Remove takes the reference out again. Its Your mix row is gone: it measures the master as your DAW plays.</li><li>The REF plug-in gets the new bands and waveforms too: restart your DAW after REF updates it.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.9.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="PyEIRowLg7FMUnGs1GaJuKo/l1OBG9/TyvpaG4zmi8KBtEhGlIAkTsQfzbt0eg23f+tKMCJa7kE/21NMThb4AQ==" length="20038372"/>
+      <description><![CDATA[<ul><li>Spike on naming the part that's too loud</li><li>A library of reference songs, with labels and moved-file warnings</li><li>A glossary that explains every term, on hover and in its own window</li><li>The Mac library keeps what another REF wrote to library.json</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.10.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="8qvQ0nK+M7KiPHySLdtyq1bX9D+1nP3DHD4dlupYaARCKfUQfExI7+tF3HywCutEbLQIeqomdAapt3t9eWeDAA==" length="22618259"/>
     </item>
   </channel>
 </rss>
