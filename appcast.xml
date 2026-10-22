@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.11.0</title>
-      <pubDate>Thu, 22 Oct 2026 15:17:31 +0000</pubDate>
-      <sparkle:version>0.11.0</sparkle:version>
-      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+      <title>REF 0.12.0</title>
+      <pubDate>Thu, 22 Oct 2026 21:49:53 +0000</pubDate>
+      <sparkle:version>0.12.0</sparkle:version>
+      <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Waveforms now come in RGB, the way rekordbox and Traktor colour theirs: lows red, mids green, highs blue, mixed into a colour for every moment. Kicks read red, kick and hats pink, hats blue, mids green. The colours were matched against rekordbox's own analysis of the same songs.</li><li>Sharper waveforms: one column per screen pixel, so a Retina screen shows twice the detail. Once a song is measured, the overview is drawn from its 3 ms detail, so each kick gets its own lines.</li><li>The old looks (Layers, Spectrum, Three bands, One colour) are still in Settings › Look › Waveform colours.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.11.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="uFN3D2J7Jfox4LrvWun9okR9kwTWEi36jt7V6l/uW5NG7SJmQe5Oc9hWP0zx1sy6jKJMcOkYs3Y2IO+V9bOKAw==" length="22636752"/>
+      <description><![CDATA[<ul><li>REF plug-in: fold the reference away to one line when you just want the meters. Click it, or drop a song on it, to bring it back. Each project remembers its fold.</li><li>REF plug-in: a new Master strip shows your master's waveform as the DAW plays it, with the DAW's bars, marks where peaks hit 0 dB, and the loudest true peak in view. Playing a section again shows the last pass ahead of the playhead, dimmed.</li><li>REF plug-in: its window uses much less CPU. Waveforms are drawn once, the zoomed waveforms scroll as pictures, and nothing redraws while nothing plays.</li><li>REF plug-in: your library is safer. Saves happen one at a time, and a damaged library file is set aside instead of written over.</li><li>REF plug-in: measures several songs at a time, like the app.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.12.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="+m6llOKZDPC+axnLdhHjrgpErxEN1PhIVHJ4Xr7r44W7UWxV27VICHUnt/3VPAG9XDxUpxnKGOeRltpSGjYVDQ==" length="22497797"/>
     </item>
   </channel>
 </rss>
