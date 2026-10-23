@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.12.0</title>
-      <pubDate>Thu, 22 Oct 2026 21:49:53 +0000</pubDate>
-      <sparkle:version>0.12.0</sparkle:version>
-      <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+      <title>REF 0.12.1</title>
+      <pubDate>Fri, 23 Oct 2026 00:25:48 +0000</pubDate>
+      <sparkle:version>0.12.1</sparkle:version>
+      <sparkle:shortVersionString>0.12.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>REF plug-in: fold the reference away to one line when you just want the meters. Click it, or drop a song on it, to bring it back. Each project remembers its fold.</li><li>REF plug-in: a new Master strip shows your master's waveform as the DAW plays it, with the DAW's bars, marks where peaks hit 0 dB, and the loudest true peak in view. Playing a section again shows the last pass ahead of the playhead, dimmed.</li><li>REF plug-in: its window uses much less CPU. Waveforms are drawn once, the zoomed waveforms scroll as pictures, and nothing redraws while nothing plays.</li><li>REF plug-in: your library is safer. Saves happen one at a time, and a damaged library file is set aside instead of written over.</li><li>REF plug-in: measures several songs at a time, like the app.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.12.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="+m6llOKZDPC+axnLdhHjrgpErxEN1PhIVHJ4Xr7r44W7UWxV27VICHUnt/3VPAG9XDxUpxnKGOeRltpSGjYVDQ==" length="22497797"/>
+      <description><![CDATA[<ul><li>The REF plug-in uses much less memory with two songs open: the songs it plays now stay in a file on disk instead of in your DAW's memory (about 150 MB less for two 4-minute songs). Playback, A/B and the meters sound and look the same.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.12.1/REF.dmg" type="application/octet-stream" sparkle:edSignature="DmBWMxkMtBXfhK98hHHV4an1ZwirVC3nUrbaClsY6eTnMQSvLAYDbu9fngBf4jPa+qV9+3QhrjwrQfykYneUCg==" length="22542801"/>
     </item>
   </channel>
 </rss>
