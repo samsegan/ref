@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.12.1</title>
-      <pubDate>Fri, 23 Oct 2026 00:25:48 +0000</pubDate>
-      <sparkle:version>0.12.1</sparkle:version>
-      <sparkle:shortVersionString>0.12.1</sparkle:shortVersionString>
+      <title>REF 0.13.0</title>
+      <pubDate>Mon, 26 Oct 2026 04:23:43 +0000</pubDate>
+      <sparkle:version>0.13.0</sparkle:version>
+      <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>The REF plug-in uses much less memory with two songs open: the songs it plays now stay in a file on disk instead of in your DAW's memory (about 150 MB less for two 4-minute songs). Playback, A/B and the meters sound and look the same.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.12.1/REF.dmg" type="application/octet-stream" sparkle:edSignature="DmBWMxkMtBXfhK98hHHV4an1ZwirVC3nUrbaClsY6eTnMQSvLAYDbu9fngBf4jPa+qV9+3QhrjwrQfykYneUCg==" length="22542801"/>
+      <description><![CDATA[<ul><li>Band solo: hear just one band (Sub, Bass, Low mids … or your own) in both your mix and the reference. ⌥-click the Tone chart or the live spectrum for a Spot band you can sweep. B toggles it, [ and ] step through the bands. Shape, slope and more are in Settings › Listening.</li><li>Left and Right listening buttons, next to Mono and Side.</li><li>Match EQ: the Tone tab now opens with the EQ curve your master needs to land on the reference, plus a printout of every move (type, Hz, dB, Q, note) and Copy EQ. Surgical by default; Detailed and Broad are in Settings.</li><li>Reference slots (Settings › Comparing): keep up to 16 references and switch with a click or the number keys. Still one song on screen at a time.</li><li>Archive References: copy your references into one folder to move machines or send to someone; open it again with Open Archive.</li><li>PSR now has a name (Crushed to Very dynamic), and you can pick a PSR target to draw on PSR over time.</li><li>Note names under the pointer on the frequency charts (63 Hz · B1).</li><li>Balance by band in the Stereo tab and on the live Stereo meter, with a note when one band leans to one side.</li><li>Plug-in: the reference can follow your DAW (Settings › Plug-in › Reference plays), lined up by bars, with Set to playhead and Line up drops.</li><li>Plug-in: closing its window now turns Mono, Side, L/R, Fix and band solo off, so your master is never left in mono out of sight (a setting keeps them on).</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.13.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="EYqgm4ix0TxHXH881GgdekkE1bE5enE5/Qy2Vz/LSq7SS33kVWnJAHFQS9P/7+t9NeIRyUCDQba4xj+hEN2wDg==" length="24415249"/>
     </item>
   </channel>
 </rss>
