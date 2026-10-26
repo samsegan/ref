@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.14.2</title>
-      <pubDate>Mon, 26 Oct 2026 16:01:32 +0000</pubDate>
-      <sparkle:version>0.14.2</sparkle:version>
-      <sparkle:shortVersionString>0.14.2</sparkle:shortVersionString>
+      <title>REF 0.15.0</title>
+      <pubDate>Mon, 26 Oct 2026 20:56:18 +0000</pubDate>
+      <sparkle:version>0.15.0</sparkle:version>
+      <sparkle:shortVersionString>0.15.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Clicking the reference's name in the top bar opens its menu again. Since 0.14.0 it froze REF until the next click and then did nothing, and with the page scrolled down it did nothing at all.</li><li>The REF plug-in gets the listening controls in one row under the waveforms, as REF did in 0.14.1. Its Follow DAW line now has a line of its own under the row.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.14.2/REF.dmg" type="application/octet-stream" sparkle:edSignature="nufpsPFEu5Gd0DgDfj5YZuKNasf9N0l99NFaC1O9YuVP49XrjMvRODhJh2SNLrT65BuCGTIRIKpQsM+V79KKDQ==" length="27816383"/>
+      <description><![CDATA[<ul><li>PAIN now shows beside each song's LUFS: how loud and harsh it sounds to the ear (perceived loudness raised by sharpness). Higher means louder or harsher. Rest the pointer on it to see what it means.</li><li>A reference set shows its songs' median PAIN, next to the set's LUFS.</li><li>The REF plug-in shows PAIN too.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.15.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="5ojEZY1ulQGYMLjfyn/JylUslKkWeJAmoOQzrgxqP/hmbkkS/3eov20O9Zgmpi8AEecoHUZ+P3cg7ENH4aC2CQ==" length="27828365"/>
     </item>
   </channel>
 </rss>
