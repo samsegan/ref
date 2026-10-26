@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.13.0</title>
-      <pubDate>Mon, 26 Oct 2026 04:23:43 +0000</pubDate>
-      <sparkle:version>0.13.0</sparkle:version>
-      <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
+      <title>REF 0.14.0</title>
+      <pubDate>Mon, 26 Oct 2026 13:35:53 +0000</pubDate>
+      <sparkle:version>0.14.0</sparkle:version>
+      <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Band solo: hear just one band (Sub, Bass, Low mids … or your own) in both your mix and the reference. ⌥-click the Tone chart or the live spectrum for a Spot band you can sweep. B toggles it, [ and ] step through the bands. Shape, slope and more are in Settings › Listening.</li><li>Left and Right listening buttons, next to Mono and Side.</li><li>Match EQ: the Tone tab now opens with the EQ curve your master needs to land on the reference, plus a printout of every move (type, Hz, dB, Q, note) and Copy EQ. Surgical by default; Detailed and Broad are in Settings.</li><li>Reference slots (Settings › Comparing): keep up to 16 references and switch with a click or the number keys. Still one song on screen at a time.</li><li>Archive References: copy your references into one folder to move machines or send to someone; open it again with Open Archive.</li><li>PSR now has a name (Crushed to Very dynamic), and you can pick a PSR target to draw on PSR over time.</li><li>Note names under the pointer on the frequency charts (63 Hz · B1).</li><li>Balance by band in the Stereo tab and on the live Stereo meter, with a note when one band leans to one side.</li><li>Plug-in: the reference can follow your DAW (Settings › Plug-in › Reference plays), lined up by bars, with Set to playhead and Line up drops.</li><li>Plug-in: closing its window now turns Mono, Side, L/R, Fix and band solo off, so your master is never left in mono out of sight (a setting keeps them on).</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.13.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="EYqgm4ix0TxHXH881GgdekkE1bE5enE5/Qy2Vz/LSq7SS33kVWnJAHFQS9P/7+t9NeIRyUCDQba4xj+hEN2wDg==" length="24415249"/>
+      <description><![CDATA[<ul><li>REF has a new look, Cold Steel, to match the plug-ins: slate steel panels on blued steel, recessed displays and steel-blue highlights, set in Barlow with labels in capitals. Advice, tips and the glossary still read as normal sentences.</li><li>A reference picker in the top bar: its arrows step through your reference slots, or through your library's labels and songs. Click its name for the reference menu.</li><li>Mono, Side, L and R are one switch (click the lit one for stereo again). Level-match, Fix and Sync are lamps, and the level meters are hatched like the plug-ins'.</li><li>The REF plug-in has the same look. With no reference loaded, its meters fill one panel: loudness and peaks beside the master waveform, with spectrum, scope and stereo below.</li><li>The REF plug-in no longer holds on to about 1 GB of freed memory inside your DAW after measuring songs.</li><li>Settings › Look: Cold Steel is the default. Midnight, Carbon and Warehouse are still there, with Texture and a new Capitals setting (labels only, or everything).</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.14.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="o1EOapVTv3BkUu1pygVQK0MRArn4aYjbsoxcOxWxirjKEb4GCU0y752YKvaE5x1yqKMjySM84P+LLfMZVHavCg==" length="27799962"/>
     </item>
   </channel>
 </rss>
