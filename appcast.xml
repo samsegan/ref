@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.14.1</title>
-      <pubDate>Mon, 26 Oct 2026 15:00:36 +0000</pubDate>
-      <sparkle:version>0.14.1</sparkle:version>
-      <sparkle:shortVersionString>0.14.1</sparkle:shortVersionString>
+      <title>REF 0.14.2</title>
+      <pubDate>Mon, 26 Oct 2026 16:01:32 +0000</pubDate>
+      <sparkle:version>0.14.2</sparkle:version>
+      <sparkle:shortVersionString>0.14.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>The listening controls in one row under the waveforms</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.14.1/REF.dmg" type="application/octet-stream" sparkle:edSignature="qQRy3JqEzAUwA5sRua4PRV35d547rwCWPex9ANmZAYois51VxXl8bYlornSxPjgtlxhQSACvJpthRqBHnoWaAQ==" length="27807874"/>
+      <description><![CDATA[<ul><li>Clicking the reference's name in the top bar opens its menu again. Since 0.14.0 it froze REF until the next click and then did nothing, and with the page scrolled down it did nothing at all.</li><li>The REF plug-in gets the listening controls in one row under the waveforms, as REF did in 0.14.1. Its Follow DAW line now has a line of its own under the row.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.14.2/REF.dmg" type="application/octet-stream" sparkle:edSignature="nufpsPFEu5Gd0DgDfj5YZuKNasf9N0l99NFaC1O9YuVP49XrjMvRODhJh2SNLrT65BuCGTIRIKpQsM+V79KKDQ==" length="27816383"/>
     </item>
   </channel>
 </rss>
