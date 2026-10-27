@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.15.2</title>
-      <pubDate>Tue, 27 Oct 2026 01:12:48 +0000</pubDate>
-      <sparkle:version>0.15.2</sparkle:version>
-      <sparkle:shortVersionString>0.15.2</sparkle:shortVersionString>
+      <title>REF 0.16.0</title>
+      <pubDate>Tue, 27 Oct 2026 20:40:33 +0000</pubDate>
+      <sparkle:version>0.16.0</sparkle:version>
+      <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>The title now reads "REF BY SEGAN": the signature sits beside the name instead of at the foot of the page.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.15.2/REF.dmg" type="application/octet-stream" sparkle:edSignature="LlI8vM6oQ1brhx6OZ7aPi37k6Qn4ZyClp/rphbemYStAv+hbcXPCZbJ4IUzktDROgUFxPLQmM2ZDHVByoJmaBA==" length="28464400"/>
+      <description><![CDATA[<ul><li>Cue points: each song gets a cue at its first drop. Drag the CUE tab on the waveform (it snaps to the beat; ⌥ places it freely), press ⇧C to set it at the playhead, or put it back on the drop from the ▾ menu.</li><li>Cue (or C) takes both songs to their cues. Lock makes every Play from stopped start at the cues, and Stop takes the songs back there. Lock is off until you turn it on, then it stays on.</li><li>Settings › Listening › Play starts: where you stopped, at the song's start, or at the cue. Cues are kept per file, so a re-bounce keeps its cue.</li><li>The REF plug-in has Cue and Lock too: with Lock on, the reference starts at its cue each time you switch to it.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.16.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="oULlaWTbayUgh9TFhbcGRznahN6V2OPtXTrcYCx7F1Ttu0hCIcTz03zVs+aUKhd2BTX0kPNu1NE6Zm0OjcEACg==" length="28623213"/>
     </item>
   </channel>
 </rss>
