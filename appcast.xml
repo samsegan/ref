@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.15.1</title>
-      <pubDate>Mon, 26 Oct 2026 22:22:11 +0000</pubDate>
-      <sparkle:version>0.15.1</sparkle:version>
-      <sparkle:shortVersionString>0.15.1</sparkle:shortVersionString>
+      <title>REF 0.15.2</title>
+      <pubDate>Tue, 27 Oct 2026 01:12:48 +0000</pubDate>
+      <sparkle:version>0.15.2</sparkle:version>
+      <sparkle:shortVersionString>0.15.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>The SEGAN signature now sits at the bottom right of the page, across from the version plate, as on every SEGAN plug-in (light letters on the dark looks, dark on the light ones).</li><li>The REF plug-in it installs carries the signature too, under the page and under the meters.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.15.1/REF.dmg" type="application/octet-stream" sparkle:edSignature="yf7sH+6ChJCkFQegyzDEB1y/rPuMyX5lwObRuJXeoY5sTXP0qJQDTG9MW4Tv8MolWYBnuUq0l6Yb5O1WlWsWBg==" length="28464849"/>
+      <description><![CDATA[<ul><li>The title now reads "REF BY SEGAN": the signature sits beside the name instead of at the foot of the page.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.15.2/REF.dmg" type="application/octet-stream" sparkle:edSignature="LlI8vM6oQ1brhx6OZ7aPi37k6Qn4ZyClp/rphbemYStAv+hbcXPCZbJ4IUzktDROgUFxPLQmM2ZDHVByoJmaBA==" length="28464400"/>
     </item>
   </channel>
 </rss>
