@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.17.0</title>
-      <pubDate>Wed, 28 Oct 2026 06:57:11 +0000</pubDate>
-      <sparkle:version>0.17.0</sparkle:version>
-      <sparkle:shortVersionString>0.17.0</sparkle:shortVersionString>
+      <title>REF 0.18.0</title>
+      <pubDate>Wed, 28 Oct 2026 19:15:01 +0000</pubDate>
+      <sparkle:version>0.18.0</sparkle:version>
+      <sparkle:shortVersionString>0.18.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>A cleaner look: Cold Steel now draws flat blue-grey steel, with no scratches, stains or chips. Settings › Look › Texture brings back Brushed or Gritty if you liked the wear.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.17.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="dek/MwtJkPFLVLZdY0795BPUtyutUyw+wPihxI5BnDWz19BRC8wEvlTnnQ88T+dkD1MxbHgJ1pdAk7bpOUOQAA==" length="28577368"/>
+      <description><![CDATA[<ul><li>Notes are one line each: what, how much, how big. Click one for the detail, how to fix it, and Don't show this again. Hiding covers that note in that direction (hide "too bright" and "darker" still shows), in every song, in REF and the REF plug-in; Settings › Notes brings them back.</li><li>A quieter window: the LUFS / Sones switch, the waveform colour key and the hint lines are hidden, and the numbers under each song are LUFS and true peak. Settings › Advanced brings each back. The plug-in's listening controls sit in one row under the reference.</li><li>Meters as panels: switch each one on or off from the chips in the meters' bar, drag the gaps to resize them, drag a title to move one. REF remembers the layout, under the waveforms, in the meters' window and in the plug-in.</li><li>Loudness over time is easier to read: the reference is a shaded area, your mix a brighter line, and resting the pointer shows both songs' exact values. The charts line both songs up at their drops and follow a moved cue; "Line up: Song starts" shows them from the start.</li><li>The zoomed waveform goes past a bar, down to 96 samples, drawn as a solid waveform (Mac app and REF for Windows; the plug-in's master strip goes to a beat).</li><li>The Tone tab reads like a tonal balance meter: the middle 80 % of a reference set's songs (or the middle half), violet where your mix is outside, and a click on a band or chip to hear it alone. Settings › Comparing › A set's range.</li><li>Hear the Match EQ on your mix with Dry / Wet (E, the lamp after Band), at the same loudness, with bands you can untick. It's listen-only by default: it switches off when the window closes and never ends up in a bounce.</li><li>REF plug-in: "Keep it in the mix" puts the Match EQ in your bounces, saved with the project (Update takes a newer fit). Settings › Listening › Match EQ › Linear phase adds about 100 ms of latency, reported to the DAW when it stops.</li><li>REF plug-in: with Match EQ in linear phase, bounces line up again.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.18.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="36opo44oV5ZQCRKfsMJtTDWJz3REIzeK6Xk6kAOtnm5nXKM7uHkQgZ9tlrf96xZWcNUDmWN+QoT2aoy8kJUADQ==" length="29525159"/>
     </item>
   </channel>
 </rss>
