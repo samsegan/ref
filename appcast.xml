@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.16.0</title>
-      <pubDate>Tue, 27 Oct 2026 20:40:33 +0000</pubDate>
-      <sparkle:version>0.16.0</sparkle:version>
-      <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
+      <title>REF 0.17.0</title>
+      <pubDate>Wed, 28 Oct 2026 06:57:11 +0000</pubDate>
+      <sparkle:version>0.17.0</sparkle:version>
+      <sparkle:shortVersionString>0.17.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Cue points: each song gets a cue at its first drop. Drag the CUE tab on the waveform (it snaps to the beat; ⌥ places it freely), press ⇧C to set it at the playhead, or put it back on the drop from the ▾ menu.</li><li>Cue (or C) takes both songs to their cues. Lock makes every Play from stopped start at the cues, and Stop takes the songs back there. Lock is off until you turn it on, then it stays on.</li><li>Settings › Listening › Play starts: where you stopped, at the song's start, or at the cue. Cues are kept per file, so a re-bounce keeps its cue.</li><li>The REF plug-in has Cue and Lock too: with Lock on, the reference starts at its cue each time you switch to it.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.16.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="oULlaWTbayUgh9TFhbcGRznahN6V2OPtXTrcYCx7F1Ttu0hCIcTz03zVs+aUKhd2BTX0kPNu1NE6Zm0OjcEACg==" length="28623213"/>
+      <description><![CDATA[<ul><li>A cleaner look: Cold Steel now draws flat blue-grey steel, with no scratches, stains or chips. Settings › Look › Texture brings back Brushed or Gritty if you liked the wear.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.17.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="dek/MwtJkPFLVLZdY0795BPUtyutUyw+wPihxI5BnDWz19BRC8wEvlTnnQ88T+dkD1MxbHgJ1pdAk7bpOUOQAA==" length="28577368"/>
     </item>
   </channel>
 </rss>
