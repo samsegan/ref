@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.19.0</title>
-      <pubDate>Thu, 29 Oct 2026 19:58:04 +0000</pubDate>
-      <sparkle:version>0.19.0</sparkle:version>
-      <sparkle:shortVersionString>0.19.0</sparkle:shortVersionString>
+      <title>REF 0.20.0</title>
+      <pubDate>Thu, 29 Oct 2026 23:13:52 +0000</pubDate>
+      <sparkle:version>0.20.0</sparkle:version>
+      <sparkle:shortVersionString>0.20.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Tonal balance in Blue road: the reference's range is a bright blue road with lit edges, the reference a pale dashed line along it, your mix a thick white line, and red fills wherever your mix leaves the range. Settings › Look › Tone colours › Red outside turns your mix's line red where it's outside instead.</li><li>Rest the pointer on the Tone chart for a big card: how many dB over or under the reference your mix is, the band (sub, bass, low mids…), whether it's outside the range, and your last bounce. Settings › Look › Pointer label › Detailed brings back the one-line label. Band names run along the top of the chart (a setting too).</li><li>The chips under the chart name the band and its peak against the reference, the same numbers as the card. By band and Difference use the same colours.</li><li>The Tone legend says which pass each line is: "Your mix 3:05 pass · 3 min ago" in the REF plug-in, the file's name in REF.</li><li>REF plug-in: a live tone curve while your DAW plays. The Tone tab draws your mix as you play, averaged since Play (a cycle starts again each time round), with your last printed pass dotted behind it. At Stop it holds as "Measuring…" until the pass prints. Settings › Plug-in › Live tone curve: Since Play, The last 3 s, or Off. It costs about 1.5 % of one core while playing with the Tone tab showing, and nothing with the window closed.</li><li>REF plug-in: a pass too short to print (under Shortest, 30 s by default) now says so on the Tone tab and in the print bar until the next Play, with Shortest one click away. What you heard stays on the chart, marked "Listen · not printed" (a setting).</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.19.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="WY4WNwuwghmSQgdNgDZRzGOL4Tad9RKb5tPLVU88fZINaqKq79vJHSOtsN+CLsgA5Rkc5iPxYSPZW0ik2Zn4BQ==" length="30207708"/>
+      <description><![CDATA[<ul><li>One Songs panel instead of two: each song's overview and zoomed waveform now sit together in one band, so the four waveforms that showed the same thing are gone.</li><li>Drop a file anywhere on a song's band, the zoomed waveform included, to replace that song. While you drag, each band says what a drop there does.</li><li>The two zoomed waveforms meet in the middle under one playhead. The overviews slim down while you're zoomed, with a box around the part you're zoomed into.</li><li>The zoom controls (zoom, jump, Sync, Line up) moved onto the transport row. Z shows or hides the zoomed waveforms.</li><li>Settings › Waveforms, new: pick another layout (each song stacked, or the overviews and then the zooms), the overview height (Auto, Thin, Tall or Off) and the zoom box. The layout button beside the zoom controls switches layouts too. The zoomed-waveform settings moved here from Meters.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.20.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="0wWZXozU38Hw/eVW28nsH/ecI2nNfAbmPjQ2i/QGOOZFhKHiX9A9OKQ53+H4jlZI8ohI7GrSSKeRTN8lwAmFCw==" length="30458858"/>
     </item>
   </channel>
 </rss>
