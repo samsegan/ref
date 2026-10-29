@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.18.1</title>
-      <pubDate>Wed, 28 Oct 2026 20:55:10 +0000</pubDate>
-      <sparkle:version>0.18.1</sparkle:version>
-      <sparkle:shortVersionString>0.18.1</sparkle:shortVersionString>
+      <title>REF 0.18.2</title>
+      <pubDate>Thu, 29 Oct 2026 04:57:13 +0000</pubDate>
+      <sparkle:version>0.18.2</sparkle:version>
+      <sparkle:shortVersionString>0.18.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>The REF plug-in no longer crashes Logic when you keep the Match EQ in the mix (Settings › Plug-in › Match EQ) with the Tone tab open.</li><li>The plug-in's Settings, Library, Glossary and Meters windows now float with the plug-in window instead of hiding behind it.</li><li>In linear phase, a bounce with the Match EQ on listen only now comes out exactly as late as REF tells your DAW.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.18.1/REF.dmg" type="application/octet-stream" sparkle:edSignature="fjSeEwJ4M0W2aMt6al024jzd6LRb+0u6LSqLyp5OigMR1qOJOeJDl4J2Wb8nn6E377UChw6oYpbk9b6YU1UHCg==" length="29942934"/>
+      <description><![CDATA[<ul><li>The REF plug-in: each project now keeps its own Match EQ choice, listen only or kept in the mix, with its EQ. A project that was printing with the Match EQ keeps printing it, whatever you pick in another project or on another Mac. Settings › Plug-in › Match EQ now only sets where a new REF starts.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.18.2/REF.dmg" type="application/octet-stream" sparkle:edSignature="kU0U4MFEn/Lu4S6wDYsFHbEzQfA2+nX0eQBnNlhr4toFoda4zQgbEsp3wBqA9KgqyvN8xUMl/Svbnia5VLZWCw==" length="29937080"/>
     </item>
   </channel>
 </rss>
