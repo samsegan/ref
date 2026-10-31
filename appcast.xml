@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.22.0</title>
-      <pubDate>Sat, 31 Oct 2026 15:20:39 +0000</pubDate>
-      <sparkle:version>0.22.0</sparkle:version>
-      <sparkle:shortVersionString>0.22.0</sparkle:shortVersionString>
+      <title>REF 0.22.1</title>
+      <pubDate>Sat, 31 Oct 2026 21:31:27 +0000</pubDate>
+      <sparkle:version>0.22.1</sparkle:version>
+      <sparkle:shortVersionString>0.22.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Five new skins: 3D / Exploratory, Sculptural / Organic, Minimal / Instrument, Cinematic / Abstract, and Ethereal / Light.</li><li>Ethereal uses solid pearl panels with clearer controls and text, plus a restrained opalescent finish.</li><li>Existing skin choices and RGB waveform settings are preserved.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.22.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="mcXvRPi/cDUXgH4+dEO2lWheKetiw7gpyB0x+QqrzZLm2fH6aMQF9Wg1H+XWbQPY2CKUrxMOZDhxHm2urgllCg==" length="57172010"/>
+      <description><![CDATA[<ul><li>Sharper Spatial, Organic, Cinematic and Ethereal artwork on Retina displays.</li><li>More consistent background detail when resizing windows, with crisp corners and edges.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.22.1/REF.dmg" type="application/octet-stream" sparkle:edSignature="DUJrpMBHgs4Cms8xAcakkRGSVEFjzY2n6EpDaSy1/Tte/VIXsdTk5s+is+oCWZ30X5GCZlhEPZGcG5HN6gOOCw==" length="54183540"/>
     </item>
   </channel>
 </rss>
