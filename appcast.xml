@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.21.0</title>
-      <pubDate>Sat, 31 Oct 2026 00:21:02 +0000</pubDate>
-      <sparkle:version>0.21.0</sparkle:version>
-      <sparkle:shortVersionString>0.21.0</sparkle:shortVersionString>
+      <title>REF 0.22.0</title>
+      <pubDate>Sat, 31 Oct 2026 15:20:39 +0000</pubDate>
+      <sparkle:version>0.22.0</sparkle:version>
+      <sparkle:shortVersionString>0.22.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Add Fracture, Minimal Poster and Pixel / Game while retaining every existing theme.</li><li>Start new profiles in Fracture with RGB waveforms. Keep saved appearance choices.</li><li>Switch quickly between RGB and Skin colour waveforms; Fracture's skin colour is ice blue.</li><li>Keep the glass artwork on the surrounding UI and waveform displays clear.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.21.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="3heIaK5ZDIDxJfPEbhZn9zCaCOaJhElvGZmAc5pD5q5LXbGVXxZsDhOaCzQ4QBk0dO+8crJ3qw2NjPnz87ZhBw==" length="42857969"/>
+      <description><![CDATA[<ul><li>Five new skins: 3D / Exploratory, Sculptural / Organic, Minimal / Instrument, Cinematic / Abstract, and Ethereal / Light.</li><li>Ethereal uses solid pearl panels with clearer controls and text, plus a restrained opalescent finish.</li><li>Existing skin choices and RGB waveform settings are preserved.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.22.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="mcXvRPi/cDUXgH4+dEO2lWheKetiw7gpyB0x+QqrzZLm2fH6aMQF9Wg1H+XWbQPY2CKUrxMOZDhxHm2urgllCg==" length="57172010"/>
     </item>
   </channel>
 </rss>
