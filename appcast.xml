@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.20.0</title>
-      <pubDate>Thu, 29 Oct 2026 23:13:52 +0000</pubDate>
-      <sparkle:version>0.20.0</sparkle:version>
-      <sparkle:shortVersionString>0.20.0</sparkle:shortVersionString>
+      <title>REF 0.21.0</title>
+      <pubDate>Sat, 31 Oct 2026 00:21:02 +0000</pubDate>
+      <sparkle:version>0.21.0</sparkle:version>
+      <sparkle:shortVersionString>0.21.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>One Songs panel instead of two: each song's overview and zoomed waveform now sit together in one band, so the four waveforms that showed the same thing are gone.</li><li>Drop a file anywhere on a song's band, the zoomed waveform included, to replace that song. While you drag, each band says what a drop there does.</li><li>The two zoomed waveforms meet in the middle under one playhead. The overviews slim down while you're zoomed, with a box around the part you're zoomed into.</li><li>The zoom controls (zoom, jump, Sync, Line up) moved onto the transport row. Z shows or hides the zoomed waveforms.</li><li>Settings › Waveforms, new: pick another layout (each song stacked, or the overviews and then the zooms), the overview height (Auto, Thin, Tall or Off) and the zoom box. The layout button beside the zoom controls switches layouts too. The zoomed-waveform settings moved here from Meters.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.20.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="0wWZXozU38Hw/eVW28nsH/ecI2nNfAbmPjQ2i/QGOOZFhKHiX9A9OKQ53+H4jlZI8ohI7GrSSKeRTN8lwAmFCw==" length="30458858"/>
+      <description><![CDATA[<ul><li>Add Fracture, Minimal Poster and Pixel / Game while retaining every existing theme.</li><li>Start new profiles in Fracture with RGB waveforms. Keep saved appearance choices.</li><li>Switch quickly between RGB and Skin colour waveforms; Fracture's skin colour is ice blue.</li><li>Keep the glass artwork on the surrounding UI and waveform displays clear.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.21.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="3heIaK5ZDIDxJfPEbhZn9zCaCOaJhElvGZmAc5pD5q5LXbGVXxZsDhOaCzQ4QBk0dO+8crJ3qw2NjPnz87ZhBw==" length="42857969"/>
     </item>
   </channel>
 </rss>
