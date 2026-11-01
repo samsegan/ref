@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.22.1</title>
-      <pubDate>Sat, 31 Oct 2026 21:31:27 +0000</pubDate>
-      <sparkle:version>0.22.1</sparkle:version>
-      <sparkle:shortVersionString>0.22.1</sparkle:shortVersionString>
+      <title>REF 0.23.0</title>
+      <pubDate>Sun, 01 Nov 2026 16:46:28 +0000</pubDate>
+      <sparkle:version>0.23.0</sparkle:version>
+      <sparkle:shortVersionString>0.23.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Sharper Spatial, Organic, Cinematic and Ethereal artwork on Retina displays.</li><li>More consistent background detail when resizing windows, with crisp corners and edges.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.22.1/REF.dmg" type="application/octet-stream" sparkle:edSignature="DUJrpMBHgs4Cms8xAcakkRGSVEFjzY2n6EpDaSy1/Tte/VIXsdTk5s+is+oCWZ30X5GCZlhEPZGcG5HN6gOOCw==" length="54183540"/>
+      <description><![CDATA[<ul><li>Replace Fracture's square artwork tiles with connected smoked-glass frame edges and detailed crack highlights.</li><li>Button edges react to presses and retain a brief memory of repeated interaction, then settle. Reduced Motion keeps the material still.</li><li>Keep waveforms, graphs, filenames and control labels clear.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.23.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="65XxeS5SppCKWZCwMlF6QPp2cNsLincyVWDhbx5eys9faIzKSElSenuFfT5lddATzRZYVp6/Kq4JhLG1mwwyAQ==" length="65752050"/>
     </item>
   </channel>
 </rss>
