@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.23.0</title>
-      <pubDate>Sun, 01 Nov 2026 16:46:28 +0000</pubDate>
-      <sparkle:version>0.23.0</sparkle:version>
-      <sparkle:shortVersionString>0.23.0</sparkle:shortVersionString>
+      <title>REF 0.24.0</title>
+      <pubDate>Tue, 17 Nov 2026 21:49:51 +0000</pubDate>
+      <sparkle:version>0.24.0</sparkle:version>
+      <sparkle:shortVersionString>0.24.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Replace Fracture's square artwork tiles with connected smoked-glass frame edges and detailed crack highlights.</li><li>Button edges react to presses and retain a brief memory of repeated interaction, then settle. Reduced Motion keeps the material still.</li><li>Keep waveforms, graphs, filenames and control labels clear.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.23.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="65XxeS5SppCKWZCwMlF6QPp2cNsLincyVWDhbx5eys9faIzKSElSenuFfT5lddATzRZYVp6/Kq4JhLG1mwwyAQ==" length="65752050"/>
+      <description><![CDATA[<ul><li>Fixes and improvements.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.24.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="U91aMY7wxLDDBXzyqAI1xato0EMwxBNVvzp523grLD/T2xSw1gg8Vm4/PHBiihMCFxjSqQIpP81dXTPJz+94Aw==" length="65879620"/>
     </item>
   </channel>
 </rss>
