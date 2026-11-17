@@ -3,12 +3,12 @@
   <channel>
     <title>REF for Windows</title>
     <item>
-      <title>REF 0.10.1</title>
-      <pubDate>Thu, 05 Nov 2026 20:39:51 +0000</pubDate>
-      <sparkle:version>0.10.1</sparkle:version>
-      <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
-      <description><![CDATA[<ul><li>A new look: clean Cold Steel by default (Gritty in Settings), plus the suite's skins (Fracture, Minimal Poster, Pixel / Game and more) in Settings.</li><li>One Songs panel: each song's overview and zoomed lanes sit together, and any lane takes a dropped file.</li><li>RGB waveforms like rekordbox and Traktor, and zoom past a bar down to 96 samples.</li><li>The reference library: songs, labels, kept measurements and bookmarks, plus Archive References and Open Archive.</li><li>Reference slots: up to 16 references, as a setting.</li><li>Match EQ: a surgical EQ curve and printout in the Tone tab. Hear it, and keep it in the mix.</li><li>Tonal balance against a target range, with the exact values under the pointer. A set's range is its middle 80 % of songs (a setting).</li><li>Band solo (with Spot) and Left/Right listening, pan by band, named PSR targets and note names under the pointer.</li><li>Over-time charts with a shaded reference, lined up at the drops.</li><li>Lock a cue point at each song's drop.</li><li>PAIN beside each song's LUFS.</li><li>Meter panels you can switch on and off, resize and drag to reorder.</li><li>A quieter top area: Settings &gt; Advanced brings the rest back. Notes are one line each, with Don't show this again.</li><li>A glossary: hover cards on terms and a Glossary window.</li><li>The REF plug-in: a live tone curve and your master's waveform while the DAW plays, the reference can follow your DAW, and its windows float with the plug-in window.</li><li>Lighter: less memory and less CPU while nothing plays.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-win-v0.10.1/REF-0.10.1-Windows-Setup.exe" sparkle:version="0.10.1" sparkle:os="windows" sparkle:installerArguments="/SILENT /SP- /NOICONS /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="8D2JXOCoPgP9/1wyldhHbDdEt/E9KHik19uWYX20Z51JUmS9rIEKaav2hwmHy7C1ACcEE1Jn2fQ3cEJuxpHGDg==" length="26585818"/>
+      <title>REF 0.11.0</title>
+      <pubDate>Tue, 17 Nov 2026 23:15:07 +0000</pubDate>
+      <sparkle:version>0.11.0</sparkle:version>
+      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+      <description><![CDATA[<ul><li>Fixes and improvements.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-win-v0.11.0/REF-0.11.0-Windows-Setup.exe" sparkle:version="0.11.0" sparkle:os="windows" sparkle:installerArguments="/SILENT /SP- /NOICONS /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="bOxTaxJek6IoWWh4jqzIrqL3cbkBgNywsKU6dHNg+r0vc3pcMHZrDwrnzD7FgwQ50Jj2uD7T/h4c+dVojeWcDQ==" length="26596310"/>
     </item>
   </channel>
 </rss>
