@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.24.0</title>
-      <pubDate>Tue, 17 Nov 2026 21:49:51 +0000</pubDate>
-      <sparkle:version>0.24.0</sparkle:version>
-      <sparkle:shortVersionString>0.24.0</sparkle:shortVersionString>
+      <title>REF 0.25.0</title>
+      <pubDate>Tue, 24 Nov 2026 18:54:21 +0000</pubDate>
+      <sparkle:version>0.25.0</sparkle:version>
+      <sparkle:shortVersionString>0.25.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Fixes and improvements.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.24.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="U91aMY7wxLDDBXzyqAI1xato0EMwxBNVvzp523grLD/T2xSw1gg8Vm4/PHBiihMCFxjSqQIpP81dXTPJz+94Aw==" length="65879620"/>
+      <description><![CDATA[<ul><li>The plug-in shows the reference zoomed in under your master, on the same playhead and zoom, down to 96 samples</li><li>Settings &gt; Meters &gt; Master waveform: Show the reference's lane</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.25.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="UYwO7hu7k8JXkcMRdTBkrVyXCZnbT6Ha5z61bcwAfxBY1OFg48kQ7uBQD2+QagCHwYxKyZfHGI3y4nqgvEexAw==" length="65936773"/>
     </item>
   </channel>
 </rss>
