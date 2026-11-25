@@ -3,12 +3,12 @@
   <channel>
     <title>REF for Windows</title>
     <item>
-      <title>REF 0.11.0</title>
-      <pubDate>Tue, 17 Nov 2026 23:15:07 +0000</pubDate>
-      <sparkle:version>0.11.0</sparkle:version>
-      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
-      <description><![CDATA[<ul><li>Fixes and improvements.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-win-v0.11.0/REF-0.11.0-Windows-Setup.exe" sparkle:version="0.11.0" sparkle:os="windows" sparkle:installerArguments="/SILENT /SP- /NOICONS /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="bOxTaxJek6IoWWh4jqzIrqL3cbkBgNywsKU6dHNg+r0vc3pcMHZrDwrnzD7FgwQ50Jj2uD7T/h4c+dVojeWcDQ==" length="26596310"/>
+      <title>REF 0.12.1</title>
+      <pubDate>Wed, 25 Nov 2026 03:35:05 +0000</pubDate>
+      <sparkle:version>0.12.1</sparkle:version>
+      <sparkle:shortVersionString>0.12.1</sparkle:shortVersionString>
+      <description><![CDATA[<ul><li>The plug-in shows the reference zoomed in under your master, on the same playhead and zoom, down to 96 samples</li><li>Settings &gt; Meters &gt; Master waveform: Show the reference's lane</li><li>Fixed: a song could be left out of a brand-new library when two REFs saved into it at the same moment</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-win-v0.12.1/REF-0.12.1-Windows-Setup.exe" sparkle:version="0.12.1" sparkle:os="windows" sparkle:installerArguments="/SILENT /SP- /NOICONS /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="iqvrLhy1TAykiO+JsqfCuVFpFmcijeSKMewSCd682jPW1r7OHJLBIwZF4cPDPaNcQ7ZH3q+PA2FVSA9v/bxVCQ==" length="26635367"/>
     </item>
   </channel>
 </rss>
