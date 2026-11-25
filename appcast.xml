@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.26.0</title>
-      <pubDate>Wed, 25 Nov 2026 07:06:40 +0000</pubDate>
-      <sparkle:version>0.26.0</sparkle:version>
-      <sparkle:shortVersionString>0.26.0</sparkle:shortVersionString>
+      <title>REF 0.27.0</title>
+      <pubDate>Wed, 25 Nov 2026 20:18:31 +0000</pubDate>
+      <sparkle:version>0.27.0</sparkle:version>
+      <sparkle:shortVersionString>0.27.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>The notes now say only what's true of your files: fixes for the quieter, louder and true-peak notes, the clip count, reference sets and the 10-octave layout.</li><li>A message line under the songs says what went wrong, in plain words, even with nothing loaded. Nothing fails silently any more.</li><li>A file REF can't read says why, and you can click it to pick another.</li><li>Dropping two files on Your mix uses the first and leaves your reference alone. Taking out an unsaved set has an Undo.</li><li>"Follow plug-in" keeps your mix until the plug-in's first print arrives.</li><li>Drop a song anywhere on the empty window to start.</li><li>Units everywhere: tile differences, charts and song numbers say LU, dB or pts, and against a set they say "the set".</li><li>On the Tone tab, "over" and "under" mean the distance outside the set's range.</li><li>Help › Keyboard Shortcuts lists every key. The Playback menu names them too.</li><li>One name for a saved set, in every menu and message.</li><li>Settings: True peak, Clipped samples and Streaming service moved to Notes; Restore Defaults asks first; Look has a Larger text size.</li><li>Bigger reference slot cells, with a mark on a slot whose file failed.</li><li>VoiceOver reads buttons, notes, slots and meters by name.</li><li>Linear-phase Match EQ now plays narrow low bands as drawn (it runs about 0.7 s late; minimum phase, the default, has no delay).</li><li>Band names show the compared range (sub from 30 Hz), mono files say they're measured as dual mono, and "Thinnest at" no longer points at breakdowns.</li><li>A silent file, or one with a silent channel, gets one clear note.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.26.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="gVFaNB0QkIz3Bela1EJDPu4egtY6ubHONa/fJTSmEoRxirKp5F4TUiXbXuqCCuB+J/pBSUXsHMUMx/nl7tSiBw==" length="67256829"/>
+      <description><![CDATA[<ul><li>Fixes and improvements.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.27.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="WBT54P3yYOaYnBaWSsB62pRLAipXdLewP7JMqhURjY7wTkpVDh+mNmmLicE4Sk78aQmhN1wEtRtO7Zb6Bni4DA==" length="67243287"/>
     </item>
   </channel>
 </rss>
