@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.27.0</title>
-      <pubDate>Wed, 25 Nov 2026 20:18:31 +0000</pubDate>
-      <sparkle:version>0.27.0</sparkle:version>
-      <sparkle:shortVersionString>0.27.0</sparkle:shortVersionString>
+      <title>REF 0.28.0</title>
+      <pubDate>Wed, 25 Nov 2026 23:34:59 +0000</pubDate>
+      <sparkle:version>0.28.0</sparkle:version>
+      <sparkle:shortVersionString>0.28.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<ul><li>Fixes and improvements.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.27.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="WBT54P3yYOaYnBaWSsB62pRLAipXdLewP7JMqhURjY7wTkpVDh+mNmmLicE4Sk78aQmhN1wEtRtO7Zb6Bni4DA==" length="67243287"/>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.28.0/REF.dmg" type="application/octet-stream" sparkle:edSignature="aX63h+4LZZ0imqvJI8oogez4eJRh3NgEkeI48N/wqkG4XEowCcdLBUpp8I7TDQAwofMJE6DgCYFKHAF83iO4AA==" length="67325077"/>
     </item>
   </channel>
 </rss>
