@@ -3,12 +3,12 @@
   <channel>
     <title>REF for Windows</title>
     <item>
-      <title>REF 0.13.1</title>
-      <pubDate>Wed, 25 Nov 2026 08:50:22 +0000</pubDate>
-      <sparkle:version>0.13.1</sparkle:version>
-      <sparkle:shortVersionString>0.13.1</sparkle:shortVersionString>
-      <description><![CDATA[<ul><li>The notes now say only what's true of your files: fixes for the quieter, louder and true-peak notes, the clip count, reference sets and the 10-octave layout.</li><li>A message line under the songs says what went wrong, in plain words, even with nothing loaded. Nothing fails silently any more.</li><li>A file REF can't read says why, and you can click it to pick another.</li><li>Dropping two files on Your mix uses the first and leaves your reference alone. Taking out an unsaved set has an Undo.</li><li>"Follow plug-in" keeps your mix until the plug-in's first print arrives.</li><li>Units everywhere: tile differences, charts and song numbers say LU, dB or pts, and against a set they say "the set".</li><li>On the Tone tab, "over" and "under" mean the distance outside the set's range.</li><li>One name for a saved set, in every menu and message.</li><li>Settings: True peak, Clipped samples and Streaming service moved to Notes; Restore Defaults asks first; Look has a Larger text size.</li><li>Bigger reference slot cells, with a mark on a slot whose file failed.</li><li>Linear-phase Match EQ now plays narrow low bands as drawn (it runs about 0.7 s late; minimum phase, the default, has no delay).</li><li>Band names show the compared range (sub from 30 Hz), mono files say they're measured as dual mono, and "Thinnest at" no longer points at breakdowns.</li><li>A silent file, or one with a silent channel, gets one clear note.</li><li>Ctrl+/ lists every key, and Ctrl+1–7 switch the tabs.</li><li>Drop a song anywhere on the empty window to start.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-win-v0.13.1/REF-0.13.1-Windows-Setup.exe" sparkle:version="0.13.1" sparkle:os="windows" sparkle:installerArguments="/SILENT /SP- /NOICONS /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="bQHZh3MulGBRoNxbpBhW3EqQAQvOI0HTPoh8q/yWM1epPJUymnlVS12DDEmfcSnrl6YGrz3mo7KV2BSBcDo3AQ==" length="26739228"/>
+      <title>REF 0.14.0</title>
+      <pubDate>Thu, 26 Nov 2026 06:04:04 +0000</pubDate>
+      <sparkle:version>0.14.0</sparkle:version>
+      <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
+      <description><![CDATA[<ul><li>Fixes and improvements.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-win-v0.14.0/REF-0.14.0-Windows-Setup.exe" sparkle:version="0.14.0" sparkle:os="windows" sparkle:installerArguments="/SILENT /SP- /NOICONS /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="Wo2XfpmORUVe3yDpMTfZaPk+lfQKeD230oDD8jWnRnun0zweIiUPnBYlXJwdAt3U5PtgT5T0h5XzYcA1eIBKAQ==" length="26746570"/>
     </item>
   </channel>
 </rss>
