@@ -3,12 +3,12 @@
   <channel>
     <title>REF for Windows</title>
     <item>
-      <title>REF 0.14.0</title>
-      <pubDate>Thu, 26 Nov 2026 06:04:04 +0000</pubDate>
-      <sparkle:version>0.14.0</sparkle:version>
-      <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
+      <title>REF 0.15.0</title>
+      <pubDate>Thu, 26 Nov 2026 23:50:39 +0000</pubDate>
+      <sparkle:version>0.15.0</sparkle:version>
+      <sparkle:shortVersionString>0.15.0</sparkle:shortVersionString>
       <description><![CDATA[<ul><li>Fixes and improvements.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-win-v0.14.0/REF-0.14.0-Windows-Setup.exe" sparkle:version="0.14.0" sparkle:os="windows" sparkle:installerArguments="/SILENT /SP- /NOICONS /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="Wo2XfpmORUVe3yDpMTfZaPk+lfQKeD230oDD8jWnRnun0zweIiUPnBYlXJwdAt3U5PtgT5T0h5XzYcA1eIBKAQ==" length="26746570"/>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-win-v0.15.0/REF-0.15.0-Windows-Setup.exe" sparkle:version="0.15.0" sparkle:os="windows" sparkle:installerArguments="/SILENT /SP- /NOICONS /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="+/c9Kc7RtInVDjHQFnJvJ290rOVHJ5l8M0IpP/OwzhIm+frgfFjHs7SPp3cH1pTjpbbGtkLdp/s+ZbwMYT5NCg==" length="26772609"/>
     </item>
   </channel>
 </rss>
