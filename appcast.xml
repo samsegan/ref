@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.28.1</title>
-      <pubDate>Thu, 26 Nov 2026 14:42:20 +0000</pubDate>
-      <sparkle:version>0.28.1</sparkle:version>
-      <sparkle:shortVersionString>0.28.1</sparkle:shortVersionString>
+      <title>REF 0.28.2</title>
+      <pubDate>Thu, 26 Nov 2026 23:13:28 +0000</pubDate>
+      <sparkle:version>0.28.2</sparkle:version>
+      <sparkle:shortVersionString>0.28.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>The Settings window is wide enough for every tab: Advanced and Updates were pushed into a greyed-out » menu, so Check Now could not be reached</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.28.1/REF.dmg" type="application/octet-stream" sparkle:edSignature="PUpiSpFpDAX/PC9BXukDreeTa43Gp7vnY/JuBkeVDZesXhl93sPfSyw6J2ml1V0xTrGCm0442rB1Vn1NGftcAQ==" length="67325670"/>
+      <description><![CDATA[<ul><li>Fixes and improvements.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.28.2/REF.dmg" type="application/octet-stream" sparkle:edSignature="sdoLyNnTRjiySdEpGxMNcwvd9b/3IQBBXpGMxo55r54ASU/02O8W/pDD1gxkWTd1K00lsuc0nKMxwaoKbN/nCw==" length="67328705"/>
     </item>
   </channel>
 </rss>
