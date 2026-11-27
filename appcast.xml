@@ -3,13 +3,13 @@
   <channel>
     <title>REF</title>
     <item>
-      <title>REF 0.28.2</title>
-      <pubDate>Thu, 26 Nov 2026 23:13:28 +0000</pubDate>
-      <sparkle:version>0.28.2</sparkle:version>
-      <sparkle:shortVersionString>0.28.2</sparkle:shortVersionString>
+      <title>REF 0.28.3</title>
+      <pubDate>Fri, 27 Nov 2026 04:59:40 +0000</pubDate>
+      <sparkle:version>0.28.3</sparkle:version>
+      <sparkle:shortVersionString>0.28.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Fixes and improvements.</li></ul>]]></description>
-      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.28.2/REF.dmg" type="application/octet-stream" sparkle:edSignature="sdoLyNnTRjiySdEpGxMNcwvd9b/3IQBBXpGMxo55r54ASU/02O8W/pDD1gxkWTd1K00lsuc0nKMxwaoKbN/nCw==" length="67328705"/>
+      <description><![CDATA[<ul><li>In the Songs panel, each song's overview now fills the full width. A shorter song used to stop part-way across, with blank space after it.</li><li>The REF plug-in does the same.</li><li>The "Reference and refine" tagline is gone from the top bar of the plug-in.</li></ul>]]></description>
+      <enclosure url="https://github.com/samsegan/ref/releases/download/ref-v0.28.3/REF.dmg" type="application/octet-stream" sparkle:edSignature="x9aNq4bkv54d3N17eoPRZXFG82kgdPr0kPai7AQI/inHxvGVc9+qYhKUSKOB6Kkkd6vQdQ3Q3HgJ6Yz1qfdZCA==" length="67280151"/>
     </item>
   </channel>
 </rss>
